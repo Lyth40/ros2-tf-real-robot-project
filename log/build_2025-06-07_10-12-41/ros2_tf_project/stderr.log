@@ -1,0 +1,58 @@
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kcv::Vec4f FeatureDetector::fitLine(const std::vector<cv::Point_<float> >&)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[KfitLine[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 |         cv::[01;31m[KfitLine[m[K(points, line, cv::DIST_L2, 0, 0.01, 0.01);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:39:[m[K [01;31m[Kerror: [m[K‘[01m[KDIST_L2[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 | points, line, cv::[01;31m[KDIST_L2[m[K, 0, 0.01, 0.01);
+      |                   [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kint FeatureDetector::splitAndMerge(const std::vector<cv::Point_<float> >&, std::vector<std::vector<cv::Point_<float> > >&, float)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:60:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   60 | f (points.size() < 2) [01;31m[Kreturn[m[K;
+      |                       [01;31m[K^~~~~~[m[K
+
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:84:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   84 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:58:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksegments[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   58 | [01;35m[Kctor<cv::Point2f>>& segments[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:59:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kthreshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |             [01;35m[Kfloat threshold = 0.05[m[K) {
+      |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:119:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  119 |             [01;31m[Kpoints[m[K.emplace_back(r * cos(angle), r * sin(angle));
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Kprintf[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:123:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  123 | x = splitAndMerge([01;31m[Kpoints[m[K, segments, 0.05);
+      |                   [01;31m[K^~~~~~[m[K
+      |                   [32m[Kprintf[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:127:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krange[m[K’ was not declared in this scope
+  127 |     p.x = [01;31m[Krange[m[K * cos(angle);
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:155:9:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+  155 |         [01;31m[Kbreak[m[K;  // Stop after first match (for demo)
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K At global scope:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:162:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K->[m[K’ token
+  162 |     response[01;31m[K->[m[Kdetected = found;
+      |             [01;31m[K^~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:163:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  163 |     [01;31m[Kif[m[K (found) {
+      |     [01;31m[K^~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:167:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  167 |     } [01;31m[Kelse[m[K {
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:170:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  170 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:172:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  172 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

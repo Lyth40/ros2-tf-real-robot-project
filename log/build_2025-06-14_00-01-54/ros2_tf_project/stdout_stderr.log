@@ -1,0 +1,79 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_trajectory_service[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_navigation_action_server[0m
+[ 33%] Built target feature_detector
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o[0m
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In constructor ‘[01m[KSimpleNavigationActionServer::SimpleNavigationActionServer()[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:19:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Time)[m[K’
+   19 |       [01;31m[Ktf_buffer_(this->get_clock()->now())[m[K,
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}
+   74 |     [01;36m[Krclcpp::Clock::SharedPtr clock[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse SimpleNavigationActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::SimpleNavigation> >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:51:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   51 |     rclcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleSimpleNavigation> goal_handle[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In constructor ‘[01m[KSimpleTrajectoryService::SimpleTrajectoryService()[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:25:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Time)[m[K’
+   25 |       [01;31m[Ktf_buffer_(this->get_clock()->now())[m[K,
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}
+   74 |     [01;36m[Krclcpp::Clock::SharedPtr clock[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::broadcast_features()[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+   74 |             static_tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:107:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  107 |             static_tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::handleSimpleTrajectory(std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:209:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  209 |                     tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                       [01;31m[K^~~~[m[K
+      |                                       [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:223:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  223 |                     tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                       [01;31m[K^~~~[m[K
+      |                                       [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_trajectory_service.dir/build.make:76: CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_trajectory_service.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/simple_navigation_action_server.dir/build.make:76: CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_navigation_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

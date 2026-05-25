@@ -1,0 +1,10 @@
+action/SimpleNavigation.action
+action/SimpleNavigation.idl
+srv/FeatureDetection.idl
+srv/FeatureDetection.srv
+srv/FeatureDetection_Request.msg
+srv/FeatureDetection_Response.msg
+srv/SimpleTrajectory.idl
+srv/SimpleTrajectory.srv
+srv/SimpleTrajectory_Request.msg
+srv/SimpleTrajectory_Response.msg

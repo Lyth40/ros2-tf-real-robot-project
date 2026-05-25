@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000524] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000988] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.001046] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001098] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001136] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001250] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001339] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001365] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001462] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001505] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001519] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001529] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001542] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces')])}
+[0.001561] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.012584] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.013473] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.014369] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', '--', '-j16', '-l16'], 'cwd': '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'latih'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/latih'), ('OLDPWD', '/home/latih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('MANAGERPID', '1790'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3089'), ('COLCON_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'latih'), ('JOURNAL_STREAM', '8:10762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latih'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/2118,unix/asus:/tmp/.ICE-unix/2118'), ('INVOCATION_ID', '019a2531db1b41ec8c14fedef571feef'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4e433c1b-5417-43cd-950d-31aa3f8fac44'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.092192] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_trajectory_service\x1b[0m\n'}
+[0.099722] (-) TimerEvent: {}
+[0.109961] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] Built target feature_detector\n'}
+[0.120263] (ros2_tf_project) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o\x1b[0m\n'}
+[0.199838] (-) TimerEvent: {}
+[0.300312] (-) TimerEvent: {}
+[0.400778] (-) TimerEvent: {}
+[0.501371] (-) TimerEvent: {}
+[0.601908] (-) TimerEvent: {}
+[0.702350] (-) TimerEvent: {}
+[0.802755] (-) TimerEvent: {}
+[0.903221] (-) TimerEvent: {}
+[1.004022] (-) TimerEvent: {}
+[1.104440] (-) TimerEvent: {}
+[1.204803] (-) TimerEvent: {}
+[1.305177] (-) TimerEvent: {}
+[1.405716] (-) TimerEvent: {}
+[1.506142] (-) TimerEvent: {}
+[1.606476] (-) TimerEvent: {}
+[1.706780] (-) TimerEvent: {}
+[1.807236] (-) TimerEvent: {}
+[1.907704] (-) TimerEvent: {}
+[2.008351] (-) TimerEvent: {}
+[2.108860] (-) TimerEvent: {}
+[2.209534] (-) TimerEvent: {}
+[2.310174] (-) TimerEvent: {}
+[2.410493] (-) TimerEvent: {}
+[2.510830] (-) TimerEvent: {}
+[2.611281] (-) TimerEvent: {}
+[2.711737] (-) TimerEvent: {}
+[2.812099] (-) TimerEvent: {}
+[2.912513] (-) TimerEvent: {}
+[3.002279] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleTrajectoryService::trajectory()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.002675] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:122:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.002776] (ros2_tf_project) StderrLine: {'line': b'  122 |         double \x1b[01;35m\x1b[Kw\x1b[m\x1b[K=1;\n'}
+[3.002839] (ros2_tf_project) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.002893] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:123:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kh\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.002950] (ros2_tf_project) StderrLine: {'line': b'  123 |         double \x1b[01;35m\x1b[Kh\x1b[m\x1b[K=1;\n'}
+[3.002990] (ros2_tf_project) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.003028] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:124:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.003073] (ros2_tf_project) StderrLine: {'line': b'  124 |         double \x1b[01;35m\x1b[Kr\x1b[m\x1b[K=0.2;\n'}
+[3.003113] (ros2_tf_project) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.003153] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:125:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Karc_points\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.003201] (ros2_tf_project) StderrLine: {'line': b'  125 |         int \x1b[01;35m\x1b[Karc_points\x1b[m\x1b[K = 10;\n'}
+[3.003241] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.012666] (-) TimerEvent: {}
+[3.113043] (-) TimerEvent: {}
+[3.213608] (-) TimerEvent: {}
+[3.314002] (-) TimerEvent: {}
+[3.414587] (-) TimerEvent: {}
+[3.514985] (-) TimerEvent: {}
+[3.615443] (-) TimerEvent: {}
+[3.716049] (-) TimerEvent: {}
+[3.816524] (-) TimerEvent: {}
+[3.916991] (-) TimerEvent: {}
+[4.017542] (-) TimerEvent: {}
+[4.118133] (-) TimerEvent: {}
+[4.218517] (-) TimerEvent: {}
+[4.319058] (-) TimerEvent: {}
+[4.419635] (-) TimerEvent: {}
+[4.520156] (-) TimerEvent: {}
+[4.620849] (-) TimerEvent: {}
+[4.721305] (-) TimerEvent: {}
+[4.821884] (-) TimerEvent: {}
+[4.922516] (-) TimerEvent: {}
+[5.022919] (-) TimerEvent: {}
+[5.123405] (-) TimerEvent: {}
+[5.223933] (-) TimerEvent: {}
+[5.324333] (-) TimerEvent: {}
+[5.424759] (-) TimerEvent: {}
+[5.525058] (-) TimerEvent: {}
+[5.625442] (-) TimerEvent: {}
+[5.725782] (-) TimerEvent: {}
+[5.826123] (-) TimerEvent: {}
+[5.926406] (-) TimerEvent: {}
+[6.026831] (-) TimerEvent: {}
+[6.101654] (ros2_tf_project) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_trajectory_service\x1b[0m\n'}
+[6.126966] (-) TimerEvent: {}
+[6.227337] (-) TimerEvent: {}
+[6.327802] (-) TimerEvent: {}
+[6.372943] (ros2_tf_project) StdoutLine: {'line': b'[100%] Built target simple_trajectory_service\n'}
+[6.396326] (ros2_tf_project) CommandEnded: {'returncode': 0}
+[6.397524] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'install'}
+[6.424139] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'], 'cwd': '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'latih'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/latih'), ('OLDPWD', '/home/latih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('MANAGERPID', '1790'), ('SYSTEMD_EXEC_PID', '2142'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3089'), ('COLCON_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'latih'), ('JOURNAL_STREAM', '8:10762'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latih'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/2118,unix/asus:/tmp/.ICE-unix/2118'), ('INVOCATION_ID', '019a2531db1b41ec8c14fedef571feef'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4e433c1b-5417-43cd-950d-31aa3f8fac44'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[6.427865] (-) TimerEvent: {}
+[6.439414] (ros2_tf_project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.440375] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/feature_detector\n'}
+[6.441884] (ros2_tf_project) StdoutLine: {'line': b'-- Installing: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/simple_trajectory_service\n'}
+[6.448925] (ros2_tf_project) StdoutLine: {'line': b'-- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/simple_trajectory_service" to ""\n'}
+[6.449797] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//frames\n'}
+[6.450071] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//frames/static_frames_sim.yaml\n'}
+[6.450295] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//launch\n'}
+[6.450505] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//launch/feature_detection_service_server.launch.py\n'}
+[6.450810] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//rviz\n'}
+[6.451203] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//rviz/tb3_burger.rviz.rviz\n'}
+[6.451397] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/package_run_dependencies/ros2_tf_project\n'}
+[6.451576] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/parent_prefix_path/ros2_tf_project\n'}
+[6.451819] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/ament_prefix_path.sh\n'}
+[6.451965] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/ament_prefix_path.dsv\n'}
+[6.452100] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/path.sh\n'}
+[6.452227] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/path.dsv\n'}
+[6.452369] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.bash\n'}
+[6.452507] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.sh\n'}
+[6.452633] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.zsh\n'}
+[6.452800] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.dsv\n'}
+[6.452931] (ros2_tf_project) StdoutLine: {'line': b'-- Installing: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/package.dsv\n'}
+[6.453058] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/packages/ros2_tf_project\n'}
+[6.453185] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/cmake/ros2_tf_projectConfig.cmake\n'}
+[6.453315] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/cmake/ros2_tf_projectConfig-version.cmake\n'}
+[6.453448] (ros2_tf_project) StdoutLine: {'line': b'-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/package.xml\n'}
+[6.456872] (ros2_tf_project) CommandEnded: {'returncode': 0}
+[6.487693] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 0}
+[6.488323] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+In file included from [01m[K/home/user/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/feature_detection__functions.h:19[m[K,
+                 from [01m[K/home/user/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/feature_detection__functions.c:4[m[K:
+[01m[K/home/user/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/feature_detection__struct.h:50:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.h: No such file or directory
+   50 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/feature_detection__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:232: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

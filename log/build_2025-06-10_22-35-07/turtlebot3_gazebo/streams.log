@@ -1,0 +1,567 @@
+[0.021s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_ros2/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.435s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.435s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.435s]   problems in calling code that expects `find_package` result variables
+[0.435s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.435s] Call Stack (most recent call first):
+[0.435s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.435s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.435s]   CMakeLists.txt:23 (find_package)
+[0.435s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.435s] [0m
+[0.435s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.438s] -- Checking for module 'bullet>=2.82'
+[0.460s] --   Found bullet, version 3.05
+[0.603s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.644s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.666s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.810s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.832s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.837s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.844s] -- Searching for dependencies of ignition-math6
+[0.846s] -- Looking for OGRE...
+[0.846s] -- OGRE_PREFIX_WATCH changed.
+[0.850s] -- Checking for module 'OGRE'
+[0.860s] --   Found OGRE, version 1.9.0
+[0.881s] -- Found Ogre Ghadamon (1.9.0)
+[0.889s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.897s] -- Looking for OGRE_Paging...
+[0.904s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.904s] -- Looking for OGRE_Terrain...
+[0.907s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.907s] -- Looking for OGRE_Property...
+[0.911s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.911s] -- Looking for OGRE_RTShaderSystem...
+[0.915s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.915s] -- Looking for OGRE_Volume...
+[0.919s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.919s] -- Looking for OGRE_Overlay...
+[0.923s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.094s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.097s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.098s] -- Searching for dependencies of ignition-transport8
+[1.115s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.129s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.133s] -- Checking for module 'libzmq >= 4'
+[1.146s] --   Found libzmq , version 4.3.4
+[1.175s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.181s] -- Checking for module 'uuid'
+[1.190s] --   Found uuid, version 2.37.2
+[1.214s] -- Found UUID: TRUE  
+[1.216s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.217s] -- Searching for dependencies of ignition-msgs5
+[1.233s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.239s] -- Checking for module 'tinyxml2'
+[1.247s] --   Found tinyxml2, version 9.0.0
+[1.275s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.277s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.278s] -- Searching for dependencies of ignition-common3
+[1.278s] -- Looking for dlfcn.h - found
+[1.279s] -- Looking for libdl - found
+[1.280s] -- Found DL: TRUE  
+[1.290s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.290s] -- Searching for <ignition-common3> component [graphics]
+[1.293s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.293s] -- Searching for dependencies of ignition-common3-graphics
+[1.294s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.296s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.296s] -- Searching for dependencies of ignition-fuel_tools4
+[1.360s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.367s] -- Checking for module 'jsoncpp'
+[1.378s] --   Found jsoncpp, version 1.9.5
+[1.404s] -- Found JSONCPP: TRUE  
+[1.412s] -- Checking for module 'libzip'
+[1.423s] --   Found libzip, version 1.7.3
+[1.451s] -- Found ZIP: TRUE  
+[1.451s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.451s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.451s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.456s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[1.457s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.484s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.488s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.497s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.559s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.575s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.606s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.608s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.672s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.695s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.739s] -- Found Threads: TRUE  
+[1.765s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.779s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.870s] -- Configuring done
+[1.905s] -- Generating done
+[1.913s] -- Build files have been written to: /home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo
+[1.930s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_ros2/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo
+[1.932s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo -- -j16 -l16
+[1.986s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[1.986s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[1.986s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[1.986s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[11.459s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[11.534s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[11.661s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[11.718s] [ 87%] Built target obstacle1
+[11.753s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[11.833s] [100%] Built target obstacle2
+[11.894s] [100%] Built target turtlebot3_drive
+[11.914s] [100%] Built target obstacles
+[11.924s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo -- -j16 -l16
+[11.925s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo
+[11.930s] -- Install configuration: ""
+[11.930s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[11.933s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[11.933s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[11.933s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[11.933s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/start_turtlebot3_world_standalone.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/start_turtlebot3_world.launch.py
+[11.934s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/main_turtlebot3_lab.launch.xml
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2/model.sdf
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_2/model.config
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new
+[11.935s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/textures
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/textures/road_i.png
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/scripts
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/materials/scripts/inter.material
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/thumbnails
+[11.936s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/thumbnails/0.png
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/model.sdf
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_inter_new/model.config
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink/model.sdf
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_pink/model.config
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green
+[11.937s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green/model.sdf
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_green/model.config
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_old
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_old/model.sdf
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_old/model-1_4.sdf
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_old/model.config
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1/model.sdf
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_1/model.config
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism
+[11.938s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/meshes
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/meshes/triangular_prism.dae
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/model.sdf
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism/model.config
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4/model.sdf
+[11.939s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_4/model.config
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate/model.sdf
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/grasping_plate/model.config
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes
+[11.940s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.blend1
+[11.941s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1_texture.png
+[11.941s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/floor_cube.stl
+[11.942s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.dae
+[11.942s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/meshes/robotarm_floor_v1.blend
+[11.943s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/model.sdf
+[11.943s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/robotarm_floor_v1/model.config
+[11.943s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera
+[11.943s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/meshes
+[11.943s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/meshes/kinect.dae
+[11.944s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/kinect.xml
+[11.944s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials
+[11.944s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials/textures
+[11.944s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/materials/textures/kinect.png
+[11.945s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/model.sdf
+[11.945s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/kinect_camera/model.config
+[11.945s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases
+[11.945s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/waffle_base.stl
+[11.957s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/burger_base.stl
+[11.961s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/bases/waffle_pi_base.stl
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop/model.sdf
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_stop/model.config
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/cam.dae
+[11.968s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.stl
+[11.969s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/left_tire.stl
+[11.971s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/black.png
+[11.971s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/right_tire_v2.dae
+[11.973s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.stl
+[11.977s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base_v2_single.dae
+[11.988s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/right_tire.stl
+[11.989s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds_v2_single.dae
+[11.991s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/left_tire_v2.dae
+[11.992s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burguer_textures.png
+[11.992s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes_dae
+[11.992s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes_dae/left_tire.dae
+[11.995s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes_dae/burger_base.dae
+[12.002s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes_dae/lds.dae
+[12.003s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes_dae/right_tire.dae
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/signal_pedestrian.dae
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/pedestrian.png
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/meshes/signal_pedestrian_fix.dae
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/model.sdf
+[12.006s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian_sign_prism/model.config
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada/model.sdf
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_direccion_obligada/model.config
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm/model.sdf
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_robot_arm/model.config
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall/model.sdf
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall/model.config
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes
+[12.007s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlights.obj
+[12.008s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/TrafficLight.obj
+[12.008s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlights.mtl
+[12.008s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlight2.dae
+[12.009s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/TrafficLight.mtl
+[12.009s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/meshes/trafficlight.dae
+[12.009s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender
+[12.009s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/trafficlightcustom.blend
+[12.010s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/trafficlightcustom.blend1
+[12.011s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style
+[12.011s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/traffic lights.blend1
+[12.012s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/BLENDSWAP_LICENSE.txt
+[12.012s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/traffic-lights-usa-style/traffic lights.blend
+[12.014s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light
+[12.014s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/79768 - LICENSE.html
+[12.014s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/Traffic Light.blend1
+[12.015s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/blender/low-poly-traffic-light/Traffic Light.blend
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/model.sdf
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/trafficlight/model.config
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6/model.sdf
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_6/model.config
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/signal_dir_obligada_fix.dae
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/direccion_obligada.jpg
+[12.016s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/meshes/signal_dir_obligada.dae
+[12.017s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/model.sdf
+[12.017s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/direccion_obligada_sign_prism/model.config
+[12.017s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road
+[12.017s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes
+[12.017s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes/EightCircuit.png
+[12.019s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/meshes/eightroad.dae
+[12.019s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/blender
+[12.019s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/blender/eightroad.blend
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/model.sdf
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/eight_road/model.config
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow/model.sdf
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_yellow/model.config
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[12.020s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[12.021s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[12.021s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[12.021s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/textures
+[12.022s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/textures/road_p.png
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/scripts
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/materials/scripts/plane.material
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/thumbnails
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/thumbnails/0.png
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/model.sdf
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_plane_new/model.config
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3
+[12.023s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3/model.sdf
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_3/model.config
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle/model.sdf
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/cardboard_obstacle/model.config
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian/model.sdf
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/triangular_prism_pedestrian/model.config
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials
+[12.024s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/textures
+[12.025s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/textures/road_d.png
+[12.025s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/scripts
+[12.025s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/materials/scripts/diag.material
+[12.025s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/thumbnails
+[12.025s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/thumbnails/0.png
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/model.sdf
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_diag_new/model.config
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7/model.sdf
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_7/model.config
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white
+[12.026s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white/model.sdf
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_white/model.config
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone/model.sdf
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2_clone/model.config
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_6.dae
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_1.dae
+[12.027s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_7.jpg
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_3.jpg
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_4.jpg
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_5.dae
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_4.dae
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_5.jpg
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_6.jpg
+[12.028s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_2.dae
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_3.dae
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_1.jpg
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/ar_tag_7.dae
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/meshes/image_2.jpg
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender
+[12.029s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag_1.blend
+[12.031s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag_1.blend1
+[12.031s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag.blend1
+[12.032s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/blender/ar_tag.blend
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/model.sdf
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_1/model.config
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1/model.sdf
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian1/model.config
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes
+[12.033s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/stop.jpg
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/signal_stop.dae
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/meshes/signal_stop_fix.dae
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/model.sdf
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/stop_sign_prism/model.config
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange/model.sdf
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_orange/model.config
+[12.034s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging/model.sdf
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging/model.config
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[12.035s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[12.036s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0/model.sdf
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_0/model.config
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban
+[12.037s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes
+[12.038s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/turnban.png
+[12.038s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/roadsing_turnban_v2.dae
+[12.038s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/meshes/roadsing_turnban.dae
+[12.038s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender
+[12.038s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban.blend
+[12.039s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsign_custom.blend
+[12.040s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban_v2.blend
+[12.041s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/roadsing_turnban.blend1
+[12.041s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version
+[12.041s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version/BLENDSWAP_LICENSE.txt
+[12.041s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/uk-road-signs-pack-1-updated-version/road signs - pack 1 by Richard Edwards.blend
+[12.042s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs
+[12.042s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs/street_signs_all.blend
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/blender/german-street-signs/93735 - LICENSE.html
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/model.sdf
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/street_sign_turnban/model.config
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue/model.sdf
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_blue/model.config
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2/model.sdf
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_2/model.config
+[12.064s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels
+[12.065s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels/left_tire.stl
+[12.066s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/wheels/right_tire.stl
+[12.067s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple
+[12.067s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple/model.sdf
+[12.067s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_purple/model.config
+[12.067s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors
+[12.067s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/lds.stl
+[12.068s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/astra.dae
+[12.075s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/r200.dae
+[12.076s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/astra.jpg
+[12.076s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/sensors/r200.jpg
+[12.076s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3
+[12.076s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3/model.sdf
+[12.076s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_3/model.config
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera/model.sdf
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/overlord_camera/model.config
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes
+[12.077s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/walls.blend1
+[12.078s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.blend
+[12.080s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Circuit_lab_The_Construct_2020.png
+[12.080s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/gradient_ilustration.jpg
+[12.081s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.blend1
+[12.082s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/ring_v2.dae
+[12.083s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/walls.blend
+[12.084s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/gradient.png
+[12.084s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Circuit_lab_The_Construct_2020.pdf
+[12.086s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/Robotnik_Automation_logo.jpg
+[12.086s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/farming-farms-agriculture-rural-countryside-landscape-green-country-tractor.jpg
+[12.087s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/meshes/nvidia-logo.jpg
+[12.087s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/model.sdf
+[12.087s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road_v2/model.config
+[12.087s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5/model.sdf
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ar_tag_5/model.config
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting/model.sdf
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_starting/model.config
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red
+[12.088s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red/model.sdf
+[12.089s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red/model.config
+[12.089s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian
+[12.089s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes
+[12.089s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/Lego-Person-v001.obj
+[12.099s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/pedestrian1.dae
+[12.099s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/Lego-Person-v001.mtl
+[12.099s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/LowPolyAnimations4Game.mtl
+[12.100s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/LowPolyAnimations4Game.obj
+[12.100s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/meshes/pedestrian2.dae
+[12.101s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender
+[12.101s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/pedestrian_theconstructcolours.blend
+[12.102s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character
+[12.102s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character/93731 - LICENSE.html
+[12.103s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/walking-character/LowPolyAnimations4Game.blend
+[12.104s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/pedestrian_theconstructcolours.blend1
+[12.105s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig
+[12.105s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig/86309 - LICENSE.html
+[12.105s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/lego-person-w-face-texture-rig/Lego-Person-v001.blend
+[12.107s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig
+[12.107s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig/Guy.blend
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/blender/guy-character-rig/BLENDSWAP_LICENSE.txt
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/model.sdf
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/pedestrian/model.config
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2/model.sdf
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/working_wall_2/model.config
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3
+[12.110s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3/model.sdf
+[12.111s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_3/model.config
+[12.111s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road
+[12.111s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes
+[12.111s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes/ring_road.dae
+[12.111s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/meshes/RingCircuit.png
+[12.113s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender
+[12.113s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender/road.blend
+[12.113s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/blender/road.blend1
+[12.114s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/model.sdf
+[12.114s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ring_road/model.config
+[12.114s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging/model.sdf
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/area_charging/model.config
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[12.115s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4/model.sdf
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/road_charging_4/model.config
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big/model.sdf
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/play_cube_red_big/model.config
+[12.116s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/realrobotlab_v1.world
+[12.117s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/include/
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[12.118s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[12.119s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[12.120s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[12.122s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/latih/ros2-tf-real-robot-project/build/turtlebot3_gazebo

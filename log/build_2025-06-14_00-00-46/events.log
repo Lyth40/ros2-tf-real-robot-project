@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000663] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000752] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.000796] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000828] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000851] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000924] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000946] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000966] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000988] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001009] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001029] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001065] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001123] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces')])}
+[0.001154] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.010166] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.010862] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.011740] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', '--', '-j16', '-l16'], 'cwd': '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'latih'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/latih'), ('OLDPWD', '/home/latih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('MANAGERPID', '1801'), ('SYSTEMD_EXEC_PID', '2288'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4130'), ('COLCON_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'latih'), ('JOURNAL_STREAM', '8:4795'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latih'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/2255,unix/asus:/tmp/.ICE-unix/2255'), ('INVOCATION_ID', 'a5cb60576ff5406bab029a4554615828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3ae95d1e-7622-4cf5-98cf-e6997f656e35'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.050912] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_navigation_action_server\x1b[0m\n'}
+[0.073609] (ros2_tf_project) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o\x1b[0m\n'}
+[0.077985] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] Built target feature_detector\n'}
+[0.090332] (ros2_tf_project) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o\x1b[0m\n'}
+[0.099740] (-) TimerEvent: {}
+[0.200064] (-) TimerEvent: {}
+[0.300445] (-) TimerEvent: {}
+[0.400800] (-) TimerEvent: {}
+[0.501308] (-) TimerEvent: {}
+[0.601758] (-) TimerEvent: {}
+[0.702089] (-) TimerEvent: {}
+[0.802459] (-) TimerEvent: {}
+[0.902930] (-) TimerEvent: {}
+[1.003433] (-) TimerEvent: {}
+[1.103999] (-) TimerEvent: {}
+[1.204429] (-) TimerEvent: {}
+[1.304817] (-) TimerEvent: {}
+[1.405275] (-) TimerEvent: {}
+[1.505774] (-) TimerEvent: {}
+[1.606227] (-) TimerEvent: {}
+[1.706622] (-) TimerEvent: {}
+[1.807089] (-) TimerEvent: {}
+[1.907550] (-) TimerEvent: {}
+[2.007910] (-) TimerEvent: {}
+[2.108287] (-) TimerEvent: {}
+[2.208832] (-) TimerEvent: {}
+[2.309329] (-) TimerEvent: {}
+[2.409933] (-) TimerEvent: {}
+[2.510502] (-) TimerEvent: {}
+[2.610929] (-) TimerEvent: {}
+[2.711415] (-) TimerEvent: {}
+[2.775317] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleTrajectoryService::SimpleTrajectoryService()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.775561] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:25:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Time)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775638] (ros2_tf_project) StderrLine: {'line': b'   25 |       \x1b[01;31m\x1b[Ktf_buffer_(this->get_clock()->now())\x1b[m\x1b[K,\n'}
+[2.775714] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.775773] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:7\x1b[m\x1b[K:\n'}
+[2.775836] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775898] (ros2_tf_project) StderrLine: {'line': b'   73 |   TF2_ROS_PUBLIC \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(\n'}
+[2.775959] (ros2_tf_project) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.776020] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Clock::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Clock>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.776088] (ros2_tf_project) StderrLine: {'line': b'   74 |     \x1b[01;36m\x1b[Krclcpp::Clock::SharedPtr clock\x1b[m\x1b[K,\n'}
+[2.776160] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.784492] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleNavigationActionServer::SimpleNavigationActionServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.784677] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Time)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784749] (ros2_tf_project) StderrLine: {'line': b'   19 |       \x1b[01;31m\x1b[Ktf_buffer_(this->get_clock()->now())\x1b[m\x1b[K,\n'}
+[2.784804] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.784857] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:7\x1b[m\x1b[K:\n'}
+[2.784925] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784983] (ros2_tf_project) StderrLine: {'line': b'   73 |   TF2_ROS_PUBLIC \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(\n'}
+[2.785037] (ros2_tf_project) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.785089] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Clock::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Clock>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.785147] (ros2_tf_project) StderrLine: {'line': b'   74 |     \x1b[01;36m\x1b[Krclcpp::Clock::SharedPtr clock\x1b[m\x1b[K,\n'}
+[2.785198] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.790253] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleTrajectoryService::broadcast_features()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.790559] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:74:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.790646] (ros2_tf_project) StderrLine: {'line': b'   74 |             static_tf.header.stamp = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_clock()->now();;\n'}
+[2.790833] (ros2_tf_project) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.791011] (ros2_tf_project) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KYAML::detail::node\x1b[m\x1b[K\n'}
+[2.791126] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/impl.h:12\x1b[m\x1b[K,\n'}
+[2.791226] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:17\x1b[m\x1b[K,\n'}
+[2.791321] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11\x1b[m\x1b[K:\n'}
+[2.791454] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/yaml-cpp/node/detail/node.h:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.791551] (ros2_tf_project) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[Knode\x1b[m\x1b[K {\n'}
+[2.791642] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.795300] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:107:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.795624] (ros2_tf_project) StderrLine: {'line': b'  107 |             static_tf.header.stamp = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_clock()->now();;\n'}
+[2.795794] (ros2_tf_project) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.795850] (ros2_tf_project) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KYAML::detail::node\x1b[m\x1b[K\n'}
+[2.795885] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/impl.h:12\x1b[m\x1b[K,\n'}
+[2.795915] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:17\x1b[m\x1b[K,\n'}
+[2.795944] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11\x1b[m\x1b[K:\n'}
+[2.795975] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/yaml-cpp/node/detail/node.h:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.796004] (ros2_tf_project) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[Knode\x1b[m\x1b[K {\n'}
+[2.796032] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.804408] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleTrajectoryService::handleSimpleTrajectory(std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.804635] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:209:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.804689] (ros2_tf_project) StderrLine: {'line': b'  209 |                     tf.header.stamp = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_clock()->now();;\n'}
+[2.804728] (ros2_tf_project) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.804764] (ros2_tf_project) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KYAML::detail::node\x1b[m\x1b[K\n'}
+[2.804816] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/impl.h:12\x1b[m\x1b[K,\n'}
+[2.804851] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:17\x1b[m\x1b[K,\n'}
+[2.804884] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11\x1b[m\x1b[K:\n'}
+[2.804923] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/yaml-cpp/node/detail/node.h:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.804958] (ros2_tf_project) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[Knode\x1b[m\x1b[K {\n'}
+[2.804992] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.807592] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:223:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.807733] (ros2_tf_project) StderrLine: {'line': b'  223 |                     tf.header.stamp = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_clock()->now();;\n'}
+[2.807774] (ros2_tf_project) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.807811] (ros2_tf_project) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KYAML::detail::node\x1b[m\x1b[K\n'}
+[2.807847] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/yaml-cpp/node/impl.h:12\x1b[m\x1b[K,\n'}
+[2.807881] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:17\x1b[m\x1b[K,\n'}
+[2.807916] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11\x1b[m\x1b[K:\n'}
+[2.807952] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/yaml-cpp/node/detail/node.h:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYAML::detail::node\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.807988] (ros2_tf_project) StderrLine: {'line': b'   20 | class \x1b[01;36m\x1b[Knode\x1b[m\x1b[K {\n'}
+[2.808024] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.811552] (-) TimerEvent: {}
+[2.824848] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse SimpleNavigationActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::SimpleNavigation> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.825054] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:51:99:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.825110] (ros2_tf_project) StderrLine: {'line': b'   51 |     rclcpp_action::CancelResponse handle_cancel(\x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleSimpleNavigation> goal_handle\x1b[m\x1b[K)\n'}
+[2.825147] (ros2_tf_project) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.911787] (-) TimerEvent: {}
+[3.012262] (-) TimerEvent: {}
+[3.112805] (-) TimerEvent: {}
+[3.213182] (-) TimerEvent: {}
+[3.313524] (-) TimerEvent: {}
+[3.414001] (-) TimerEvent: {}
+[3.514468] (-) TimerEvent: {}
+[3.614972] (-) TimerEvent: {}
+[3.715475] (-) TimerEvent: {}
+[3.815960] (-) TimerEvent: {}
+[3.916804] (-) TimerEvent: {}
+[4.017265] (-) TimerEvent: {}
+[4.117535] (-) TimerEvent: {}
+[4.217851] (-) TimerEvent: {}
+[4.318194] (-) TimerEvent: {}
+[4.418719] (-) TimerEvent: {}
+[4.519406] (-) TimerEvent: {}
+[4.565370] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_trajectory_service.dir/build.make:76: CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o] Error 1\n'}
+[4.565629] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_trajectory_service.dir/all] Error 2\n'}
+[4.565681] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.619628] (-) TimerEvent: {}
+[4.720223] (-) TimerEvent: {}
+[4.820769] (-) TimerEvent: {}
+[4.821421] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_navigation_action_server.dir/build.make:76: CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o] Error 1\n'}
+[4.821640] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_navigation_action_server.dir/all] Error 2\n'}
+[4.821967] (ros2_tf_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.824834] (ros2_tf_project) CommandEnded: {'returncode': 2}
+[4.840366] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 2}
+[4.851501] (-) EventReactorShutdown: {}

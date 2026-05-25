@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_trajectory_service[0m
+[ 50%] Built target feature_detector
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o[0m
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:45:26:[m[K [01;31m[Kerror: [m[K‘[01m[KTranformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   45 |     std::shared_ptr<tf2::[01;31m[KTranformBroadcaster[m[K> tf_broadcaster_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |     std::shared_ptr<tf2::TranformBroadcaster[01;31m[K>[m[K tf_broadcaster_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::handleSimpleTrajectory(std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:211:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsendTransform[m[K’ in ‘[01m[K((SimpleTrajectoryService*)this)->SimpleTrajectoryService::tf_broadcaster_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  211 |                 tf_broadcaster_.[01;31m[KsendTransform[m[K(tf);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_trajectory_service.dir/build.make:76: CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_trajectory_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

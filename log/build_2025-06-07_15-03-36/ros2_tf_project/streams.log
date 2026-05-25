@@ -1,0 +1,61 @@
+[0.014s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project': CMAKE_PREFIX_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/ros2_tf_project -- -j16 -l16
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target feature_detector[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o[0m
+[3.052s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.052s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.052s]                  from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1[m[K:
+[3.052s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kint FeatureDetector::splitAndMerge(const std::vector<cv::Point_<float> >&, std::vector<std::vector<cv::Point_<float> > >&, float)[m[K’:
+[3.052s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:111:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.052s]   111 | is->get_logger(), [01;35m[K"index: %d"[m[K, [32m[Kindex[m[K);
+[3.052s]       |                   [01;35m[K^~~~~~~~~~~[m[K  [32m[K~~~~~[m[K
+[3.052s]       |                                [32m[K|[m[K
+[3.052s]       |                                [32m[Ksize_t {aka long unsigned int}[m[K
+[3.052s] 
+[3.052s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:111:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.052s]   111 | ogger(), "index: [01;36m[K%d[m[K", index);
+[3.052s]       |                  [01;36m[K~^[m[K
+[3.052s]       |                   [01;36m[K|[m[K
+[3.052s]       |                   [01;36m[Kint[m[K
+[3.053s]       |                  [32m[K%ld[m[K
+[3.060s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)[m[K’:
+[3.060s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:147:17:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[3.061s]   147 |                 [01;35m[Kif[m[K (i < 0 || i >= static_cast<int>(scan->ranges.size()))
+[3.061s]       |                 [01;35m[K^~[m[K
+[3.061s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:149:21:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[3.061s]   149 |                   [01;36m[Kfloat[m[K r = scan->ranges[i];
+[3.061s]       |                   [01;36m[K^~~~~[m[K
+[3.061s] 
+[3.071s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:203:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeature_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kfeature_srv_[m[K’?
+[3.071s]   203 |                 [&[01;31m[Kfeature_name[m[K](const auto& f){ return f.first == request->feature });
+[3.072s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.072s]       |                   [32m[Kfeature_srv_[m[K
+[3.072s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In lambda function:
+[3.072s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:203:78:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ is not captured
+[3.072s]   203 | return f.first == [01;31m[Krequest[m[K->feature });
+[3.072s]       |                   [01;31m[K^~~~~~~[m[K
+[3.072s] 
+[3.072s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:203:42:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.072s]   203 |     [&feature_name[01;36m[K][m[K(const auto& f){ return f.first == request->feature });
+[3.072s]       |                   [01;36m[K^[m[K
+[3.072s] 
+[3.072s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:116:58:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > > request[m[K’ declared here
+[3.072s]   116 | [01;36m[KeDetection::Request> request[m[K,
+[3.072s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.072s] 
+[3.072s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:203:95:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.072s]   203 | first == request->feature [01;31m[K}[m[K);
+[3.072s]       |                           [01;31m[K^[m[K
+[3.072s] 
+[5.737s] gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+[5.737s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+[5.738s] gmake: *** [Makefile:146: all] Error 2
+[5.740s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project' returned '2': CMAKE_PREFIX_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/ros2_tf_project -- -j16 -l16

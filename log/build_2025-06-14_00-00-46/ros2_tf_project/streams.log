@@ -1,0 +1,80 @@
+[0.013s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project': CMAKE_PREFIX_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/ros2_tf_project -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target simple_navigation_action_server[0m
+[0.073s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o[0m
+[0.077s] [ 50%] Built target feature_detector
+[0.090s] [ 66%] [32mBuilding CXX object CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o[0m
+[2.774s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In constructor ‘[01m[KSimpleTrajectoryService::SimpleTrajectoryService()[m[K’:
+[2.774s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:25:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Time)[m[K’
+[2.775s]    25 |       [01;31m[Ktf_buffer_(this->get_clock()->now())[m[K,
+[2.775s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.775s] In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:7[m[K:
+[2.775s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+[2.775s]    73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+[2.775s]       |                  [01;36m[K^~~~~~[m[K
+[2.775s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}
+[2.775s]    74 |     [01;36m[Krclcpp::Clock::SharedPtr clock[m[K,
+[2.775s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.783s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In constructor ‘[01m[KSimpleNavigationActionServer::SimpleNavigationActionServer()[m[K’:
+[2.784s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:19:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Time)[m[K’
+[2.784s]    19 |       [01;31m[Ktf_buffer_(this->get_clock()->now())[m[K,
+[2.784s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.784s] In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:7[m[K:
+[2.784s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+[2.784s]    73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+[2.784s]       |                  [01;36m[K^~~~~~[m[K
+[2.784s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:74:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}
+[2.784s]    74 |     [01;36m[Krclcpp::Clock::SharedPtr clock[m[K,
+[2.784s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.789s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::broadcast_features()[m[K’:
+[2.789s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.790s]    74 |             static_tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();;
+[2.790s]       |                                      [01;31m[K^~~~[m[K
+[2.790s]       |                                      [32m[KYAML::detail::node[m[K
+[2.790s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.790s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.790s]                  from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[2.790s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.790s]    20 | class [01;36m[Knode[m[K {
+[2.791s]       |       [01;36m[K^~~~[m[K
+[2.794s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:107:38:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.795s]   107 |             static_tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();;
+[2.795s]       |                                      [01;31m[K^~~~[m[K
+[2.795s]       |                                      [32m[KYAML::detail::node[m[K
+[2.795s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.795s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.795s]                  from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[2.795s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.795s]    20 | class [01;36m[Knode[m[K {
+[2.795s]       |       [01;36m[K^~~~[m[K
+[2.803s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::handleSimpleTrajectory(std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Response_<std::allocator<void> > >)[m[K’:
+[2.804s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:209:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.804s]   209 |                     tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();;
+[2.804s]       |                                       [01;31m[K^~~~[m[K
+[2.804s]       |                                       [32m[KYAML::detail::node[m[K
+[2.804s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.804s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.804s]                  from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[2.804s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.804s]    20 | class [01;36m[Knode[m[K {
+[2.804s]       |       [01;36m[K^~~~[m[K
+[2.807s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:223:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.807s]   223 |                     tf.header.stamp = [01;31m[Knode[m[K->get_clock()->now();;
+[2.807s]       |                                       [01;31m[K^~~~[m[K
+[2.807s]       |                                       [32m[KYAML::detail::node[m[K
+[2.807s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.807s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.807s]                  from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:11[m[K:
+[2.807s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.807s]    20 | class [01;36m[Knode[m[K {
+[2.807s]       |       [01;36m[K^~~~[m[K
+[2.824s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse SimpleNavigationActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::SimpleNavigation> >)[m[K’:
+[2.824s] [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:51:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.824s]    51 |     rclcpp_action::CancelResponse handle_cancel([01;35m[Kconst std::shared_ptr<GoalHandleSimpleNavigation> goal_handle[m[K)
+[2.824s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.564s] gmake[2]: *** [CMakeFiles/simple_trajectory_service.dir/build.make:76: CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o] Error 1
+[4.564s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_trajectory_service.dir/all] Error 2
+[4.565s] gmake[1]: *** Waiting for unfinished jobs....
+[4.820s] gmake[2]: *** [CMakeFiles/simple_navigation_action_server.dir/build.make:76: CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o] Error 1
+[4.821s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_navigation_action_server.dir/all] Error 2
+[4.821s] gmake: *** [Makefile:146: all] Error 2
+[4.824s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project' returned '2': CMAKE_PREFIX_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/ros2_tf_project -- -j16 -l16

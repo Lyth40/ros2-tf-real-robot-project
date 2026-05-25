@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target feature_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_trajectory_service[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o[0m
+[ 50%] Built target feature_detector
+[ 83%] Built target simple_trajectory_service

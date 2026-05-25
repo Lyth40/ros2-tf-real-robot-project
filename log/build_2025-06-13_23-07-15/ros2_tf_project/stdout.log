@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_navigation_action_server[0m
+[ 33%] Built target feature_detector
+[ 66%] Built target simple_trajectory_service
+[ 83%] [32mBuilding CXX object CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_navigation_action_server[0m
+[100%] Built target simple_navigation_action_server
+-- Install configuration: ""
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/feature_detector
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/simple_trajectory_service
+-- Installing: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/simple_navigation_action_server
+-- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/lib/ros2_tf_project/simple_navigation_action_server" to ""
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//frames
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//frames/static_frames_sim.yaml
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//launch
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//launch/simple_trajectory_service_server.launch.py
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//launch/feature_detection_service_server.launch.py
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//rviz
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project//rviz/tb3_burger.rviz.rviz
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/package_run_dependencies/ros2_tf_project
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/parent_prefix_path/ros2_tf_project
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/ament_prefix_path.sh
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/path.sh
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/environment/path.dsv
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.bash
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.sh
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.zsh
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/local_setup.dsv
+-- Installing: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/package.dsv
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ament_index/resource_index/packages/ros2_tf_project
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/cmake/ros2_tf_projectConfig.cmake
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/cmake/ros2_tf_projectConfig-version.cmake
+-- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/ros2_tf_project/share/ros2_tf_project/package.xml

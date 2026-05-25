@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target feature_detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o[0m
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kcv::Vec4f FeatureDetector::fitLine(const std::vector<cv::Point_<float> >&)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[KfitLine[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 |         cv::[01;31m[KfitLine[m[K(points, line, cv::DIST_L2, 0, 0.01, 0.01);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:39:[m[K [01;31m[Kerror: [m[K‘[01m[KDIST_L2[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 |         cv::fitLine(points, line, cv::[01;31m[KDIST_L2[m[K, 0, 0.01, 0.01);
+      |                                       [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

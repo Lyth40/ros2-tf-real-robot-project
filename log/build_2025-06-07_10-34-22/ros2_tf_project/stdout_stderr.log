@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target feature_detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o[0m
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2::angle[m[K’?
+  128 |     [01;31m[Kangle[m[K = angle_min + index* angle_increment;
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Ktf2::angle[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:40[m[K,
+                 from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:410:1:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::angle[m[K’ declared here
+  410 | [01;36m[Kangle[m[K(const Quaternion& q1, const Quaternion& q2)
+      | [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kcv::Vec4f FeatureDetector::fitLine(const std::vector<cv::Point_<float> >&)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[KfitLine[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 |         cv::[01;31m[KfitLine[m[K(points, line, cv::DIST_L2, 0, 0.01, 0.01);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:39:[m[K [01;31m[Kerror: [m[K‘[01m[KDIST_L2[m[K’ is not a member of ‘[01m[Kcv[m[K’
+   47 |         cv::fitLine(points, line, cv::[01;31m[KDIST_L2[m[K, 0, 0.01, 0.01);
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function ‘[01m[Kint FeatureDetector::splitAndMerge(const std::vector<cv::Point_<float> >&, std::vector<std::vector<cv::Point_<float> > >&, float)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:60:32:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   60 |         if (points.size() < 2) [01;31m[Kreturn[m[K;
+      |                                [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

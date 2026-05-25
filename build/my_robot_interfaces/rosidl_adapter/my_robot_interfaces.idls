@@ -1,0 +1,3 @@
+/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/FeatureDetection.idl
+/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SimpleTrajectory.idl
+/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/SimpleNavigation.idl

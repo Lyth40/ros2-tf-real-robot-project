@@ -1,0 +1,308 @@
+[0.009s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces -- -j16 -l16
+[0.032s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.199s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.483s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.979s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.979s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.979s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.016s] -- Configuring done
+[1.042s] -- Generating done
+[1.050s] -- Build files have been written to: /home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces
+[1.071s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.076s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.085s] [  4%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.237s] running egg_info
+[1.237s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.238s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.238s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.239s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.240s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.260s] [  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.444s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[1.454s] [  6%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/feature_detection__functions.c.o[0m
+[1.454s] [  8%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/simple_trajectory__functions.c.o[0m
+[1.454s] [ 10%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/simple_navigation__functions.c.o[0m
+[1.458s] [ 10%] Built target my_robot_interfaces__cpp
+[1.465s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.465s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.466s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.553s] [ 19%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[1.583s] [ 19%] Built target my_robot_interfaces__rosidl_generator_c
+[1.590s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.594s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.594s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.719s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_cpp[0m
+[1.729s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/feature_detection__type_support.cpp.o[0m
+[1.729s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/simple_trajectory__type_support.cpp.o[0m
+[1.729s] [ 31%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/simple_navigation__type_support.cpp.o[0m
+[1.768s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.780s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/simple_trajectory__type_support.cpp.o[0m
+[1.780s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/simple_navigation__type_support.cpp.o[0m
+[1.780s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/feature_detection__type_support.cpp.o[0m
+[1.887s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c[0m
+[1.899s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/simple_trajectory__type_support.cpp.o[0m
+[1.899s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/feature_detection__type_support.cpp.o[0m
+[1.899s] [ 44%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/simple_navigation__type_support.cpp.o[0m
+[1.960s] [ 46%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[2.006s] [ 46%] Built target my_robot_interfaces__rosidl_typesupport_c
+[2.008s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.025s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/feature_detection__type_support.cpp.o[0m
+[2.025s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/simple_navigation__type_support.cpp.o[0m
+[2.025s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/simple_trajectory__type_support.cpp.o[0m
+[2.086s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.101s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c[0m
+[2.103s] [ 55%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/feature_detection__type_support_c.cpp.o[0m
+[2.104s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/simple_navigation__type_support_c.cpp.o[0m
+[2.104s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/simple_trajectory__type_support_c.cpp.o[0m
+[2.113s] [ 65%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/simple_trajectory__type_support.c.o[0m
+[2.114s] [ 65%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/feature_detection__type_support.c.o[0m
+[2.114s] [ 65%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/simple_navigation__type_support.c.o[0m
+[2.166s] [ 68%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.175s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.206s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[2.216s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[2.328s] [ 72%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.397s] [ 72%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.401s] [ 74%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.458s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.506s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.563s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.584s] [ 76%] Built target my_robot_interfaces
+[2.609s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.273s] [ 78%] Built target my_robot_interfaces__py
+[3.283s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_py[0m
+[3.302s] [ 80%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_feature_detection_s.c.o[0m
+[3.303s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_simple_navigation_s.c.o[0m
+[3.304s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_simple_trajectory_s.c.o[0m
+[3.414s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[3.456s] [ 87%] Built target my_robot_interfaces__rosidl_generator_py
+[3.464s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.465s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.467s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext[0m
+[3.473s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.473s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.474s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.557s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.558s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.562s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.589s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.594s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[3.594s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.602s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces -- -j16 -l16
+[3.608s] Invoking command in '/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces
+[3.615s] -- Install configuration: ""
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[3.615s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.615s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.615s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.615s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.615s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__struct.h
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.h
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__type_support.h
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__functions.h
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__functions.c
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__functions.c
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__functions.h
+[3.615s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__type_support.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/simple_trajectory.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/simple_navigation.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__type_support.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__functions.c
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__functions.h
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__struct.h
+[3.616s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[3.616s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[3.616s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[3.616s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.616s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__rosidl_typesupport_fastrtps_c.h
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__rosidl_typesupport_fastrtps_c.h
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__rosidl_typesupport_fastrtps_c.h
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.617s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.617s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__type_support.c
+[3.617s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__type_support.c
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__rosidl_typesupport_introspection_c.h
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__rosidl_typesupport_introspection_c.h
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__rosidl_typesupport_introspection_c.h
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__type_support.c
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[3.618s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[3.618s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.618s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.618s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__traits.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__traits.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__type_support.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__builder.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__struct.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__builder.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__type_support.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/simple_trajectory.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__traits.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__struct.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__type_support.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__builder.hpp
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/simple_navigation.hpp
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[3.619s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[3.619s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__rosidl_typesupport_fastrtps_cpp.hpp
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/dds_fastrtps
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.620s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__rosidl_typesupport_introspection_cpp.hpp
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__type_support.cpp
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__type_support.cpp
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/simple_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[3.620s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__rosidl_typesupport_introspection_cpp.hpp
+[3.620s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/simple_navigation__type_support.cpp
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.621s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[3.621s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.621s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[3.621s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.621s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.621s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[3.622s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_simple_trajectory_s.c
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_simple_trajectory.py
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_feature_detection_s.c
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_feature_detection.py
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_simple_navigation.py
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_simple_navigation_s.c
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.622s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.653s] Listing '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[3.653s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[3.653s] Listing '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action'...
+[3.653s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py'...
+[3.653s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_simple_navigation.py'...
+[3.653s] Listing '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[3.653s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...
+[3.654s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_feature_detection.py'...
+[3.654s] Compiling '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_simple_trajectory.py'...
+[3.657s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.657s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.657s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.657s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.657s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.657s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.657s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[3.658s] -- Set runtime path of "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/FeatureDetection.idl
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/SimpleTrajectory.idl
+[3.658s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/action/SimpleNavigation.idl
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/FeatureDetection.srv
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/FeatureDetection_Request.msg
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/FeatureDetection_Response.msg
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/SimpleTrajectory.srv
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/SimpleTrajectory_Request.msg
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/srv/SimpleTrajectory_Response.msg
+[3.658s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/action/SimpleNavigation.action
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[3.658s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[3.658s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[3.659s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[3.659s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[3.659s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[3.659s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[3.659s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.659s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.659s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.659s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[3.659s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[3.660s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.660s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.660s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.660s] -- Old export file "/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.660s] -- Installing: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.660s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.660s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.660s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.661s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.661s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.661s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[3.661s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[3.661s] -- Up-to-date: /home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[3.662s] Invoked command in '/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces

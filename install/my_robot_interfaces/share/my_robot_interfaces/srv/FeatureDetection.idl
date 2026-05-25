@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/FeatureDetection.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module my_robot_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request ")
+    struct FeatureDetection_Request {
+      string feature;
+
+      string feature_id;
+    };
+    @verbatim (language="comment", text=
+      "response ")
+    struct FeatureDetection_Response {
+      boolean detected;
+
+      string message;
+
+      sequence<geometry_msgs::msg::Point> positions;
+    };
+  };
+};

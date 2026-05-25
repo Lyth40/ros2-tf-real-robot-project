@@ -1,0 +1,85 @@
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:49:31:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleSimpleNavigation[m[K’ was not declared in this scope
+   49 |         const std::shared_ptr<[01;31m[KGoalHandleSimpleNavigation[m[K> goal_handle)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:49:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |         const std::shared_ptr<GoalHandleSimpleNavigation[01;31m[K>[m[K goal_handle)
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:55:52:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleSimpleNavigation[m[K’ was not declared in this scope
+   55 |         void handle_accepted(const std::shared_ptr<[01;31m[KGoalHandleSimpleNavigation[m[K> goal_handle)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:55:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |         void handle_accepted(const std::shared_ptr<GoalHandleSimpleNavigation[01;31m[K>[m[K goal_handle)
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:60:44:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandleSimpleNavigation[m[K’ was not declared in this scope
+   60 |         void execute(const std::shared_ptr<[01;31m[KGoalHandleSimpleNavigation[m[K> goal_handle)
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:60:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   60 |         void execute(const std::shared_ptr<GoalHandleSimpleNavigation[01;31m[K>[m[K goal_handle)
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In constructor ‘[01m[KSimpleNavigationActionServer::SimpleNavigationActionServer()[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:16:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+   16 |         SimpleNavigationActionServer():Node("simple_navigation_action_server"[01;31m[K)[m[K
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+   73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:16:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+   16 |         SimpleNavigationActionServer():Node("simple_navigation_action_server"[01;31m[K)[m[K
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+   90 |   [01;36m[KTransformListener[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:90:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:16:78:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 0 provided
+   16 |         SimpleNavigationActionServer():Node("simple_navigation_action_server"[01;36m[K)[m[K
+      |                                                                              [01;36m[K^[m[K
+In file included from [01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)[m[K’
+   87 |   explicit [01;36m[KTransformListener[m[K(tf2::BufferCore & buffer, bool spin_thread = true);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:87:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_Server[m[K’ is not a member of ‘[01m[Krclcpp_action[m[K’; did you mean ‘[01m[Kcreate_server[m[K’?
+   18 |             navigation_srv_ = rclcpp_action::[01;31m[Kcreate_Server[m[K<SimpleNavigation>(
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                              [32m[Kcreate_server[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:18:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   18 |             navigation_srv_ = rclcpp_action::create_Server<SimpleNavigation[01;31m[K>[m[K(
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:19:17:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   19 |                 [01;35m[Kthis[m[K,
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:21:121:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   21 |                 std::bind(&SimpleNavigationActionServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2[01;35m[K)[m[K,
+      |                                                                                                                         [01;35m[K^[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse SimpleNavigationActionServer::handle_cancel(int)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:49:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 |         [01;35m[Kconst std::shared_ptr<GoalHandleSimpleNavigation> goal_handle[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:[m[K In member function ‘[01m[Kvoid SimpleNavigationActionServer::execute(int)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:62:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   62 |             auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:68:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+   68 |                 result->[01;31m[Ksuccess[m[K = false;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:69:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   69 |                 goal_handle[01;31m[K->[m[Kabort(result);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:82:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+   82 |                     result->[01;31m[Ksuccess[m[K = false;
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:83:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   83 |                     goal_handle[01;31m[K->[m[Kabort(result);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:104:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::action::SimpleNavigation_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+  104 |             result->[01;31m[Ksuccess[m[K = true;
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_navigation_action_server.cpp:105:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  105 |             goal_handle[01;31m[K->[m[Ksucceed(result);
+      |                        [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_navigation_action_server.dir/build.make:76: CMakeFiles/simple_navigation_action_server.dir/src/simple_navigation_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_navigation_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

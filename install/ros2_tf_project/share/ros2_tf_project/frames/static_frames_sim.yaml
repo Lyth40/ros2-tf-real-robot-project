@@ -1,0 +1,57 @@
+feature_frames:
+  - feature: corner_1_frame
+    position:
+      x: 1.1408234420882342
+      y: 0.83661233826670445
+      z: 0.18865632904339708
+  - feature: corner_2_frame
+    position:
+      x: 1.1449886639287197
+      y: -0.99040726909593668
+      z: 0.18844739891155834
+  - feature: corner_3_frame
+    position:
+      x: -0.93403655613811953
+      y: -1.0029644495679357
+      z: 0.18891701572230546
+  - feature: corner_4_frame
+    position:
+      x: -0.93318792595982991
+      y: 0.82914224621423571
+      z: 0.18869290394703492
+  - feature: obstacle_1_frame
+    position:
+      x: -0.20747511385767081
+      y: -0.035585691949593851
+      z: 0.18957205469322028
+  - feature: obstacle_2_frame
+    position:
+      x: -0.18477585611078579
+      y: -0.24023398686730382
+      z: 0.18943174312668107
+  - feature: obstacle_3_frame
+    position:
+      x: -0.06066110292228543
+      y: -0.23568551676894162
+      z: 0.18946946424752276
+  - feature: obstacle_5_frame
+    position:
+      x: 0.46993729657860006
+      y: 0.00090733256383616553
+      z: 0.18953623987220272
+  - feature: obstacle_6_frame
+    position:
+      x: 0.48694728847241003
+      y: -0.2974472015401593
+      z: 0.1899200525519058
+  - feature: obstacle_4_frame
+    position:
+      x: -0.019329418506289553
+      y: -0.082566162784502323
+      z: 0.18978356460851775
+
+  - feature: start_feature
+    position:
+      x: 0.70
+      y: -0.75
+      z: 0.18978356460851775

@@ -1,0 +1,4 @@
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::trajectory()[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:125:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karc_points[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  125 |         int [01;35m[Karc_points[m[K = 10;
+      |             [01;35m[K^~~~~~~~~~[m[K

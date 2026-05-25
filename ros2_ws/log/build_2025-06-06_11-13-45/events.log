@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000277] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000312] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.000346] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/user/ros2_ws/install/my_robot_interfaces')])}
+[0.000766] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.098712] (-) TimerEvent: {}
+[0.199151] (-) TimerEvent: {}
+[0.204683] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.205510] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.206647] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/ros2_tf_project', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/ros2_tf_project', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/ros2_tf_project'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/tb3_burger_localization:/home/user/ros2_ws/install/tb3_burger_cartographer:/home/user/simulation_ws/install/turtlebot3:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_simulations:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_example:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_gazebo:/home/user/simulation_ws/install/turtlebot3_bringup:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/tb3_burger_localization:/home/user/ros2_ws/install/tb3_burger_cartographer:/home/user/simulation_ws/install/turtlebot3:/home/user/simulation_ws/install/turtlebot3_simulations:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_gazebo:/home/user/simulation_ws/install/turtlebot3_bringup:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/user/simulation_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/user/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/my_robot_interfaces/lib:/home/user/simulation_ws/install/turtlebot3_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '925354'), ('SLOT_PREFIX', 'c78a80f5-9480-422a-8dc1-6f5cfabb6622'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25397'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.299277] (-) TimerEvent: {}
+[0.399690] (-) TimerEvent: {}
+[0.500077] (-) TimerEvent: {}
+[0.518964] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target feature_detector\x1b[0m\n'}
+[0.600353] (-) TimerEvent: {}
+[0.605600] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o\x1b[0m\n'}
+[0.700879] (-) TimerEvent: {}
+[0.801350] (-) TimerEvent: {}
+[0.901707] (-) TimerEvent: {}
+[1.002101] (-) TimerEvent: {}
+[1.102584] (-) TimerEvent: {}
+[1.203175] (-) TimerEvent: {}
+[1.306829] (-) TimerEvent: {}
+[1.410957] (-) TimerEvent: {}
+[1.512848] (-) TimerEvent: {}
+[1.615979] (-) TimerEvent: {}
+[1.717017] (-) TimerEvent: {}
+[1.817565] (-) TimerEvent: {}
+[1.918385] (-) TimerEvent: {}
+[2.018804] (-) TimerEvent: {}
+[2.120566] (-) TimerEvent: {}
+[2.221264] (-) TimerEvent: {}
+[2.322399] (-) TimerEvent: {}
+[2.423558] (-) TimerEvent: {}
+[2.528098] (-) TimerEvent: {}
+[2.629259] (-) TimerEvent: {}
+[2.730217] (-) TimerEvent: {}
+[2.830604] (-) TimerEvent: {}
+[2.930964] (-) TimerEvent: {}
+[3.036265] (-) TimerEvent: {}
+[3.137630] (-) TimerEvent: {}
+[3.238982] (-) TimerEvent: {}
+[3.339468] (-) TimerEvent: {}
+[3.440511] (-) TimerEvent: {}
+[3.541473] (-) TimerEvent: {}
+[3.642167] (-) TimerEvent: {}
+[3.742912] (-) TimerEvent: {}
+[3.843922] (-) TimerEvent: {}
+[3.945512] (-) TimerEvent: {}
+[4.048549] (-) TimerEvent: {}
+[4.151637] (-) TimerEvent: {}
+[4.252930] (-) TimerEvent: {}
+[4.395051] (-) TimerEvent: {}
+[4.496334] (-) TimerEvent: {}
+[4.596922] (-) TimerEvent: {}
+[4.697771] (-) TimerEvent: {}
+[4.798588] (-) TimerEvent: {}
+[4.899102] (-) TimerEvent: {}
+[5.002113] (-) TimerEvent: {}
+[5.103241] (-) TimerEvent: {}
+[5.204049] (-) TimerEvent: {}
+[5.304467] (-) TimerEvent: {}
+[5.406389] (-) TimerEvent: {}
+[5.506960] (-) TimerEvent: {}
+[5.607380] (-) TimerEvent: {}
+[5.713294] (-) TimerEvent: {}
+[5.814446] (-) TimerEvent: {}
+[5.918519] (-) TimerEvent: {}
+[6.019695] (-) TimerEvent: {}
+[6.121213] (-) TimerEvent: {}
+[6.221657] (-) TimerEvent: {}
+[6.322672] (-) TimerEvent: {}
+[6.423088] (-) TimerEvent: {}
+[6.523821] (-) TimerEvent: {}
+[6.624741] (-) TimerEvent: {}
+[6.725882] (-) TimerEvent: {}
+[6.827343] (-) TimerEvent: {}
+[6.934901] (-) TimerEvent: {}
+[7.035790] (-) TimerEvent: {}
+[7.194910] (-) TimerEvent: {}
+[7.295300] (-) TimerEvent: {}
+[7.395945] (-) TimerEvent: {}
+[7.499252] (-) TimerEvent: {}
+[7.599623] (-) TimerEvent: {}
+[7.700018] (-) TimerEvent: {}
+[7.800738] (-) TimerEvent: {}
+[7.904113] (-) TimerEvent: {}
+[8.004491] (-) TimerEvent: {}
+[8.106742] (-) TimerEvent: {}
+[8.207403] (-) TimerEvent: {}
+[8.308321] (-) TimerEvent: {}
+[8.408837] (-) TimerEvent: {}
+[8.509419] (-) TimerEvent: {}
+[8.610394] (-) TimerEvent: {}
+[8.710881] (-) TimerEvent: {}
+[8.811513] (-) TimerEvent: {}
+[8.911951] (-) TimerEvent: {}
+[9.013113] (-) TimerEvent: {}
+[9.113487] (-) TimerEvent: {}
+[9.214006] (-) TimerEvent: {}
+[9.314573] (-) TimerEvent: {}
+[9.415078] (-) TimerEvent: {}
+[9.517314] (-) TimerEvent: {}
+[9.618297] (-) TimerEvent: {}
+[9.718652] (-) TimerEvent: {}
+[9.828887] (-) TimerEvent: {}
+[9.931427] (-) TimerEvent: {}
+[10.031840] (-) TimerEvent: {}
+[10.132732] (-) TimerEvent: {}
+[10.233116] (-) TimerEvent: {}
+[10.334631] (-) TimerEvent: {}
+[10.437301] (-) TimerEvent: {}
+[10.594940] (-) TimerEvent: {}
+[10.695349] (-) TimerEvent: {}
+[10.795717] (-) TimerEvent: {}
+[10.896095] (-) TimerEvent: {}
+[10.996444] (-) TimerEvent: {}
+[11.097633] (-) TimerEvent: {}
+[11.199183] (-) TimerEvent: {}
+[11.301413] (-) TimerEvent: {}
+[11.401826] (-) TimerEvent: {}
+[11.502310] (-) TimerEvent: {}
+[11.604650] (-) TimerEvent: {}
+[11.705118] (-) TimerEvent: {}
+[11.806101] (-) TimerEvent: {}
+[11.908617] (-) TimerEvent: {}
+[12.025177] (-) TimerEvent: {}
+[12.130564] (-) TimerEvent: {}
+[12.231621] (-) TimerEvent: {}
+[12.332533] (-) TimerEvent: {}
+[12.434031] (-) TimerEvent: {}
+[12.537872] (-) TimerEvent: {}
+[12.694933] (-) TimerEvent: {}
+[12.795918] (-) TimerEvent: {}
+[12.853834] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:15:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kros2_tf_project\x1b[m\x1b[K' does not name a type\n"}
+[12.854170] (ros2_tf_project) StderrLine: {'line': b'   15 | using FeatureDetection = \x1b[01;31m\x1b[Kros2_tf_project\x1b[m\x1b[K::srv::FeatureDetection;\n'}
+[12.854371] (ros2_tf_project) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.896050] (-) TimerEvent: {}
+[12.996432] (-) TimerEvent: {}
+[13.017060] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:33:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.017354] (ros2_tf_project) StderrLine: {'line': b'   33 |     rclcpp::Service<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K>::SharedPtr feature_srv_;\n'}
+[13.017479] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.017590] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.017699] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.017825] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.017942] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.018063] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.018380] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.018502] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:33:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.018614] (ros2_tf_project) StderrLine: {'line': b'   33 | rclcpp::Service<FeatureDetection\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr feature_srv_;\n'}
+[13.018723] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.018884] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.019080] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:33:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected '\x1b[01m\x1b[K;\x1b[m\x1b[K' at end of member declaration\n"}
+[13.019385] (ros2_tf_project) StderrLine: {'line': b'   33 | cpp::Service<FeatureDetection>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K feature_srv_;\n'}
+[13.021669] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.021898] (ros2_tf_project) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[13.026913] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:33:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kfeature_srv_\x1b[m\x1b[K' does not name a type\n"}
+[13.030614] (ros2_tf_project) StderrLine: {'line': b'   33 | ce<FeatureDetection>::SharedPtr \x1b[01;31m\x1b[Kfeature_srv_\x1b[m\x1b[K;\n'}
+[13.030805] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.030939] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.032895] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.033077] (ros2_tf_project) StderrLine: {'line': b'   44 |     const std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Request> request,\n'}
+[13.033172] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.033273] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.033365] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.033466] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.033549] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.033634] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.034722] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.034910] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.035034] (ros2_tf_project) StderrLine: {'line': b'   44 | red_ptr<FeatureDetection::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[13.035132] (ros2_tf_project) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.035212] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.035290] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.035403] (ros2_tf_project) StderrLine: {'line': b'   44 |     const std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Request> request,\n'}
+[13.035489] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.035591] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.035694] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.035835] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.035973] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.036439] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.037185] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.037350] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.037482] (ros2_tf_project) StderrLine: {'line': b'   44 | red_ptr<FeatureDetection::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[13.037580] (ros2_tf_project) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.037661] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.037739] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.037828] (ros2_tf_project) StderrLine: {'line': b'   44 |     const std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Request> request,\n'}
+[13.037917] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.038003] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.038084] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.038167] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.038254] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.038341] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.038427] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.038506] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.038585] (ros2_tf_project) StderrLine: {'line': b'   44 | red_ptr<FeatureDetection::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[13.038663] (ros2_tf_project) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.038740] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.038852] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[13.038954] (ros2_tf_project) StderrLine: {'line': b'   44 |     const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<FeatureDetection::Request> request,\n'}
+[13.039044] (ros2_tf_project) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.039146] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' has not been declared\n"}
+[13.039255] (ros2_tf_project) StderrLine: {'line': b'   44 |     const std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Request> request,\n'}
+[13.039359] (ros2_tf_project) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.039461] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder '\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K' not permitted in this context\n"}
+[13.039566] (ros2_tf_project) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<FeatureDetection::Request> request,\n'}
+[13.039669] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.039761] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.039859] (ros2_tf_project) StderrLine: {'line': b'   45 |     std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Response> response)\n'}
+[13.039975] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.040096] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.040207] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.040319] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.040433] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.040577] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.040680] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.040789] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.040899] (ros2_tf_project) StderrLine: {'line': b'   45 | d_ptr<FeatureDetection::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[13.040996] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.041093] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.041196] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.041325] (ros2_tf_project) StderrLine: {'line': b'   45 |     std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Response> response)\n'}
+[13.041439] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.041544] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.041655] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.041776] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.041895] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.042020] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.042130] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.042238] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.042338] (ros2_tf_project) StderrLine: {'line': b'   45 | d_ptr<FeatureDetection::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[13.042442] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.042548] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.042652] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.042749] (ros2_tf_project) StderrLine: {'line': b'   45 |     std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Response> response)\n'}
+[13.043030] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.043120] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.043263] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.043383] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.043531] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.043798] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.043979] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.044123] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.044267] (ros2_tf_project) StderrLine: {'line': b'   45 | d_ptr<FeatureDetection::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[13.044408] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.044650] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.044805] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[13.045144] (ros2_tf_project) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<FeatureDetection::Response> response)\n'}
+[13.045222] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.045317] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' has not been declared\n"}
+[13.045413] (ros2_tf_project) StderrLine: {'line': b'   45 |     std::shared_ptr<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K::Response> response)\n'}
+[13.045549] (ros2_tf_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.045700] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder '\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K' not permitted in this context\n"}
+[13.045842] (ros2_tf_project) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<FeatureDetection::Response> response)\n'}
+[13.045978] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.102923] (-) TimerEvent: {}
+[13.114272] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KFeatureDetector::FeatureDetector()\x1b[m\x1b[K':\n"}
+[13.114529] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kfeature_srv_\x1b[m\x1b[K' was not declared in this scope\n"}
+[13.114646] (ros2_tf_project) StderrLine: {'line': b'   24 |         \x1b[01;31m\x1b[Kfeature_srv_\x1b[m\x1b[K = this->create_service<FeatureDetection>(\n'}
+[13.114746] (ros2_tf_project) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.115166] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[KFeatureDetection\x1b[m\x1b[K' was not declared in this scope; did you mean '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K'?\n"}
+[13.115343] (ros2_tf_project) StderrLine: {'line': b'   24 | ure_srv_ = this->create_service<\x1b[01;31m\x1b[KFeatureDetection\x1b[m\x1b[K>(\n'}
+[13.115466] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.116992] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K\n'}
+[13.118537] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7\x1b[m\x1b[K,\n'}
+[13.118671] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13\x1b[m\x1b[K:\n'}
+[13.118996] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K'\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection\x1b[m\x1b[K' declared here\n"}
+[13.121292] (ros2_tf_project) StderrLine: {'line': b'  296 | struct \x1b[01;36m\x1b[KFeatureDetection\x1b[m\x1b[K\n'}
+[13.127090] (ros2_tf_project) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.127422] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to '\x1b[01m\x1b[KFeatureDetector::create_service<<expression error> >(const char [19], std::_Bind_helper<false, void (FeatureDetector::*)(...), FeatureDetector*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K'\n"}
+[13.127964] (ros2_tf_project) StderrLine: {'line': b'   24 | _ = \x1b[01;31m\x1b[Kthis->create_service<FeatureDetection>(\x1b[m\x1b[K\n'}
+[13.128108] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[13.128283] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.128425] (ros2_tf_project) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[Kre_detection",std::bind(&FeatureDetector::handleFeatureDetection, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[13.128567] (ros2_tf_project) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.128696] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.128878] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[13.129028] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[13.129163] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.129336] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1\x1b[m\x1b[K:\n'}
+[13.129491] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K'\n"}
+[13.129638] (ros2_tf_project) StderrLine: {'line': b'  267 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[13.129774] (ros2_tf_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.130242] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.130596] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.130842] (ros2_tf_project) StderrLine: {'line': b'   24 | _ = \x1b[01;31m\x1b[Kthis->create_service<FeatureDetection>(\x1b[m\x1b[K\n'}
+[13.131029] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[13.131365] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.131587] (ros2_tf_project) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[Kre_detection",std::bind(&FeatureDetector::handleFeatureDetection, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[13.132089] (ros2_tf_project) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.133807] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.144100] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid FeatureDetector::handleFeatureDetection(...)\x1b[m\x1b[K':\n"}
+[13.144436] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:48:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kresponse\x1b[m\x1b[K' was not declared in this scope\n"}
+[13.144610] (ros2_tf_project) StderrLine: {'line': b'   48 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->detected = false;\n'}
+[13.144755] (ros2_tf_project) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.196077] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:94:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Krequest\x1b[m\x1b[K' was not declared in this scope\n"}
+[13.196356] (ros2_tf_project) StderrLine: {'line': b'   94 |      static_tf.child_frame_id = \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->feature + "_" + request->feature_id;\n'}
+[13.196490] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.196592] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.203033] (-) TimerEvent: {}
+[13.218442] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:109:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kresponse\x1b[m\x1b[K' was not declared in this scope\n"}
+[13.218668] (ros2_tf_project) StderrLine: {'line': b'  109 |     \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->detected = found;\n'}
+[13.218771] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.231259] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:111:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Krequest\x1b[m\x1b[K' was not declared in this scope\n"}
+[13.231552] (ros2_tf_project) StderrLine: {'line': b'  111 | essage = "Feature detected: " + \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->feature + " [" + request->feature_id + "]";\n'}
+[13.231673] (ros2_tf_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.231783] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.306976] (-) TimerEvent: {}
+[13.407670] (-) TimerEvent: {}
+[13.511858] (-) TimerEvent: {}
+[13.612923] (-) TimerEvent: {}
+[13.714710] (-) TimerEvent: {}
+[13.822941] (-) TimerEvent: {}
+[13.923429] (-) TimerEvent: {}
+[14.024149] (-) TimerEvent: {}
+[14.124606] (-) TimerEvent: {}
+[14.225019] (-) TimerEvent: {}
+[14.331911] (-) TimerEvent: {}
+[14.433619] (-) TimerEvent: {}
+[14.534063] (-) TimerEvent: {}
+[14.635034] (-) TimerEvent: {}
+[14.798009] (-) TimerEvent: {}
+[14.898446] (-) TimerEvent: {}
+[14.999269] (-) TimerEvent: {}
+[15.102900] (-) TimerEvent: {}
+[15.218894] (-) TimerEvent: {}
+[15.320111] (-) TimerEvent: {}
+[15.426926] (-) TimerEvent: {}
+[15.528584] (-) TimerEvent: {}
+[15.638044] (-) TimerEvent: {}
+[15.742442] (-) TimerEvent: {}
+[15.845024] (-) TimerEvent: {}
+[15.945426] (-) TimerEvent: {}
+[16.046525] (-) TimerEvent: {}
+[16.149282] (-) TimerEvent: {}
+[16.294897] (-) TimerEvent: {}
+[16.395335] (-) TimerEvent: {}
+[16.495745] (-) TimerEvent: {}
+[16.596473] (-) TimerEvent: {}
+[16.698149] (-) TimerEvent: {}
+[16.802891] (-) TimerEvent: {}
+[16.905098] (-) TimerEvent: {}
+[17.006749] (-) TimerEvent: {}
+[17.107799] (-) TimerEvent: {}
+[17.209057] (-) TimerEvent: {}
+[17.311770] (-) TimerEvent: {}
+[17.412358] (-) TimerEvent: {}
+[17.513445] (-) TimerEvent: {}
+[17.615388] (-) TimerEvent: {}
+[17.715877] (-) TimerEvent: {}
+[17.817647] (-) TimerEvent: {}
+[17.918765] (-) TimerEvent: {}
+[18.020320] (-) TimerEvent: {}
+[18.121129] (-) TimerEvent: {}
+[18.229825] (-) TimerEvent: {}
+[18.338999] (-) TimerEvent: {}
+[18.494915] (-) TimerEvent: {}
+[18.595297] (-) TimerEvent: {}
+[18.695651] (-) TimerEvent: {}
+[18.796255] (-) TimerEvent: {}
+[18.898197] (-) TimerEvent: {}
+[19.002890] (-) TimerEvent: {}
+[19.103995] (-) TimerEvent: {}
+[19.204337] (-) TimerEvent: {}
+[19.306774] (-) TimerEvent: {}
+[19.407186] (-) TimerEvent: {}
+[19.508100] (-) TimerEvent: {}
+[19.608504] (-) TimerEvent: {}
+[19.712662] (-) TimerEvent: {}
+[19.813538] (-) TimerEvent: {}
+[19.913963] (-) TimerEvent: {}
+[20.016635] (-) TimerEvent: {}
+[20.117018] (-) TimerEvent: {}
+[20.217645] (-) TimerEvent: {}
+[20.318165] (-) TimerEvent: {}
+[20.420687] (-) TimerEvent: {}
+[20.521177] (-) TimerEvent: {}
+[20.627303] (-) TimerEvent: {}
+[20.729407] (-) TimerEvent: {}
+[20.830624] (-) TimerEvent: {}
+[20.942368] (-) TimerEvent: {}
+[21.042735] (-) TimerEvent: {}
+[21.143095] (-) TimerEvent: {}
+[21.250888] (-) TimerEvent: {}
+[21.351229] (-) TimerEvent: {}
+[21.451561] (-) TimerEvent: {}
+[21.594893] (-) TimerEvent: {}
+[21.695823] (-) TimerEvent: {}
+[21.796185] (-) TimerEvent: {}
+[21.896654] (-) TimerEvent: {}
+[21.997042] (-) TimerEvent: {}
+[22.097420] (-) TimerEvent: {}
+[22.198362] (-) TimerEvent: {}
+[22.298761] (-) TimerEvent: {}
+[22.399130] (-) TimerEvent: {}
+[22.499476] (-) TimerEvent: {}
+[22.600326] (-) TimerEvent: {}
+[22.701921] (-) TimerEvent: {}
+[22.802385] (-) TimerEvent: {}
+[22.902844] (-) TimerEvent: {}
+[23.004479] (-) TimerEvent: {}
+[23.104881] (-) TimerEvent: {}
+[23.205342] (-) TimerEvent: {}
+[23.306893] (-) TimerEvent: {}
+[23.407862] (-) TimerEvent: {}
+[23.508397] (-) TimerEvent: {}
+[23.608853] (-) TimerEvent: {}
+[23.709776] (-) TimerEvent: {}
+[23.811854] (-) TimerEvent: {}
+[23.912295] (-) TimerEvent: {}
+[24.013108] (-) TimerEvent: {}
+[24.117004] (-) TimerEvent: {}
+[24.217367] (-) TimerEvent: {}
+[24.319398] (-) TimerEvent: {}
+[24.420311] (-) TimerEvent: {}
+[24.522031] (-) TimerEvent: {}
+[24.622883] (-) TimerEvent: {}
+[24.724510] (-) TimerEvent: {}
+[24.827473] (-) TimerEvent: {}
+[24.858696] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1\n'}
+[24.860230] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2\n'}
+[24.860438] (ros2_tf_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.897134] (ros2_tf_project) CommandEnded: {'returncode': 2}
+[24.927720] (-) TimerEvent: {}
+[25.029234] (-) TimerEvent: {}
+[25.129631] (-) TimerEvent: {}
+[25.231121] (-) TimerEvent: {}
+[25.332197] (-) TimerEvent: {}
+[25.424255] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 2}
+[25.427076] (-) EventReactorShutdown: {}

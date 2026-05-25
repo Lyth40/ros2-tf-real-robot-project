@@ -1,0 +1,7 @@
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:[m[K In member function ‘[01m[Kvoid SimpleTrajectoryService::handleSimpleTrajectory(std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::SimpleTrajectory_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/simple_trajectory_service.cpp:212:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<tf2_ros::TransformBroadcaster>[m[K’ has no member named ‘[01m[KsendTransform[m[K’
+  212 |                 tf_broadcaster_.[01;31m[KsendTransform[m[K(tf);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_trajectory_service.dir/build.make:76: CMakeFiles/simple_trajectory_service.dir/src/simple_trajectory_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_trajectory_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

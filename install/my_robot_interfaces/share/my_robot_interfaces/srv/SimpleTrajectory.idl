@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/SimpleTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct SimpleTrajectory_Request {
+      boolean start;
+
+      boolean clockwise;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct SimpleTrajectory_Response {
+      boolean completed;
+
+      string message;
+    };
+  };
+};

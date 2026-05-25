@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000611] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000732] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.000741] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000751] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000760] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000768] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000776] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000784] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000792] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000802] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000810] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000818] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000829] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces')])}
+[0.000845] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.010125] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.010861] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.011679] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', '--', '-j16', '-l16'], 'cwd': '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'latih'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/latih'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('MANAGERPID', '1703'), ('SYSTEMD_EXEC_PID', '2048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12681'), ('COLCON_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'latih'), ('JOURNAL_STREAM', '8:7688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latih'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/2026,unix/asus:/tmp/.ICE-unix/2026'), ('INVOCATION_ID', '70f2a857054449fd91df855ae97e5762'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cd3a20ee-5de8-4036-b2f5-99b3a3672b40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.042202] (ros2_tf_project) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099867] (-) TimerEvent: {}
+[0.188099] (ros2_tf_project) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.200087] (-) TimerEvent: {}
+[0.208873] (ros2_tf_project) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.210285] (ros2_tf_project) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.214211] (ros2_tf_project) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.220965] (ros2_tf_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.229163] (ros2_tf_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.255354] (ros2_tf_project) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.298753] (ros2_tf_project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.300191] (-) TimerEvent: {}
+[0.301020] (ros2_tf_project) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400335] (-) TimerEvent: {}
+[0.401144] (ros2_tf_project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.466334] (ros2_tf_project) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.468533] (ros2_tf_project) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.469925] (ros2_tf_project) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.471046] (ros2_tf_project) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.484438] (ros2_tf_project) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[0.500461] (-) TimerEvent: {}
+[0.502606] (ros2_tf_project) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.567886] (ros2_tf_project) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.585899] (ros2_tf_project) StdoutLine: {'line': b'-- Generating done\n'}
+[0.589399] (ros2_tf_project) StdoutLine: {'line': b'-- Build files have been written to: /home/latih/ros2-tf-real-robot-project/build/ros2_tf_project\n'}
+[0.600577] (-) TimerEvent: {}
+[0.616681] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target feature_detector\x1b[0m\n'}
+[0.640800] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o\x1b[0m\n'}
+[0.700659] (-) TimerEvent: {}
+[0.801064] (-) TimerEvent: {}
+[0.901440] (-) TimerEvent: {}
+[1.001973] (-) TimerEvent: {}
+[1.102562] (-) TimerEvent: {}
+[1.202910] (-) TimerEvent: {}
+[1.303395] (-) TimerEvent: {}
+[1.404017] (-) TimerEvent: {}
+[1.504560] (-) TimerEvent: {}
+[1.604909] (-) TimerEvent: {}
+[1.705397] (-) TimerEvent: {}
+[1.805866] (-) TimerEvent: {}
+[1.906496] (-) TimerEvent: {}
+[2.006818] (-) TimerEvent: {}
+[2.107266] (-) TimerEvent: {}
+[2.207651] (-) TimerEvent: {}
+[2.307912] (-) TimerEvent: {}
+[2.408315] (-) TimerEvent: {}
+[2.508722] (-) TimerEvent: {}
+[2.609090] (-) TimerEvent: {}
+[2.709465] (-) TimerEvent: {}
+[2.809723] (-) TimerEvent: {}
+[2.910091] (-) TimerEvent: {}
+[3.010623] (-) TimerEvent: {}
+[3.110999] (-) TimerEvent: {}
+[3.138287] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Vec4f FeatureDetector::fitLine(const std::vector<cv::Point_<float> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.138493] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KfitLine\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.138540] (ros2_tf_project) StderrLine: {'line': b'   47 |         cv::\x1b[01;31m\x1b[KfitLine\x1b[m\x1b[K(points, line, cv::DIST_L2, 0, 0.01, 0.01);\n'}
+[3.138577] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.139168] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:47:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDIST_L2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.139271] (ros2_tf_project) StderrLine: {'line': b'   47 | points, line, cv::\x1b[01;31m\x1b[KDIST_L2\x1b[m\x1b[K, 0, 0.01, 0.01);\n'}
+[3.139314] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.139350] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.141413] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint FeatureDetector::splitAndMerge(const std::vector<cv::Point_<float> >&, std::vector<std::vector<cv::Point_<float> > >&, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.141749] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:60:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.141798] (ros2_tf_project) StderrLine: {'line': b'   60 | f (points.size() < 2) \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[3.141833] (ros2_tf_project) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.141865] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.141897] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:84:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.141934] (ros2_tf_project) StderrLine: {'line': b'   84 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[3.141965] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.141995] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:58:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksegments\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.142030] (ros2_tf_project) StderrLine: {'line': b'   58 | \x1b[01;35m\x1b[Kctor<cv::Point2f>>& segments\x1b[m\x1b[K,\n'}
+[3.142064] (ros2_tf_project) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.142106] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.142134] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:59:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kthreshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.142168] (ros2_tf_project) StderrLine: {'line': b'   59 |             \x1b[01;35m\x1b[Kfloat threshold = 0.05\x1b[m\x1b[K) {\n'}
+[3.142197] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.142225] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.153506] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.153739] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:119:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.153783] (ros2_tf_project) StderrLine: {'line': b'  119 |             \x1b[01;31m\x1b[Kpoints\x1b[m\x1b[K.emplace_back(r * cos(angle), r * sin(angle));\n'}
+[3.153816] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.153845] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kprintf\x1b[m\x1b[K\n'}
+[3.162536] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:123:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.162825] (ros2_tf_project) StderrLine: {'line': b'  123 | x = splitAndMerge(\x1b[01;31m\x1b[Kpoints\x1b[m\x1b[K, segments, 0.05);\n'}
+[3.162868] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.162899] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kprintf\x1b[m\x1b[K\n'}
+[3.168500] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:127:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krange\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.168756] (ros2_tf_project) StderrLine: {'line': b'  127 |     p.x = \x1b[01;31m\x1b[Krange\x1b[m\x1b[K * cos(angle);\n'}
+[3.168800] (ros2_tf_project) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.169625] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:155:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbreak statement not within loop or switch\n'}
+[3.169714] (ros2_tf_project) StderrLine: {'line': b'  155 |         \x1b[01;31m\x1b[Kbreak\x1b[m\x1b[K;  // Stop after first match (for demo)\n'}
+[3.169751] (ros2_tf_project) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.170222] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.170304] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:162:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.170342] (ros2_tf_project) StderrLine: {'line': b'  162 |     response\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdetected = found;\n'}
+[3.170384] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.170414] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:163:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170442] (ros2_tf_project) StderrLine: {'line': b'  163 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (found) {\n'}
+[3.170470] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.170500] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:167:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.170527] (ros2_tf_project) StderrLine: {'line': b'  167 |     } \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K {\n'}
+[3.170553] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.170579] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:170:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.170606] (ros2_tf_project) StderrLine: {'line': b'  170 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[3.170633] (ros2_tf_project) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.170661] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:172:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.170688] (ros2_tf_project) StderrLine: {'line': b'  172 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.170714] (ros2_tf_project) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.211147] (-) TimerEvent: {}
+[3.311607] (-) TimerEvent: {}
+[3.411901] (-) TimerEvent: {}
+[3.512342] (-) TimerEvent: {}
+[3.612758] (-) TimerEvent: {}
+[3.713208] (-) TimerEvent: {}
+[3.813566] (-) TimerEvent: {}
+[3.913908] (-) TimerEvent: {}
+[4.014377] (-) TimerEvent: {}
+[4.114888] (-) TimerEvent: {}
+[4.215161] (-) TimerEvent: {}
+[4.315576] (-) TimerEvent: {}
+[4.415978] (-) TimerEvent: {}
+[4.516356] (-) TimerEvent: {}
+[4.616715] (-) TimerEvent: {}
+[4.717061] (-) TimerEvent: {}
+[4.817369] (-) TimerEvent: {}
+[4.917723] (-) TimerEvent: {}
+[5.018030] (-) TimerEvent: {}
+[5.118367] (-) TimerEvent: {}
+[5.218966] (-) TimerEvent: {}
+[5.319406] (-) TimerEvent: {}
+[5.420059] (-) TimerEvent: {}
+[5.520409] (-) TimerEvent: {}
+[5.593857] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1\n'}
+[5.594354] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2\n'}
+[5.594883] (ros2_tf_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.599405] (ros2_tf_project) CommandEnded: {'returncode': 2}
+[5.618258] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 2}
+[5.620496] (-) TimerEvent: {}
+[5.629236] (-) EventReactorShutdown: {}

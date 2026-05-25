@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_interfaces/action/SimpleNavigation.action
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct SimpleNavigation_Goal {
+      boolean start;
+
+      boolean clockwise;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SimpleNavigation_Result {
+      boolean completed;
+
+      string message;
+
+      float total_distance;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct SimpleNavigation_Feedback {
+      float current_distance;
+    };
+  };
+};

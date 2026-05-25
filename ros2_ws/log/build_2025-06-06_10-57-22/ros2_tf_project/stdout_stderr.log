@@ -1,0 +1,166 @@
+[35m[1mConsolidate compiler generated dependencies of target feature_detector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o[0m
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:15:26:[m[K [01;31m[Kerror: [m[K'[01m[Kros2_tf_project[m[K' does not name a type
+   15 | using FeatureDetection = [01;31m[Kros2_tf_project[m[K::srv::FeatureDetection;
+      |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:34:21:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   34 |     rclcpp::Service<[01;31m[KFeatureDetection[m[K>::SharedPtr feature_srv_;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:34:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 | rclcpp::Service<FeatureDetection[01;31m[K>[m[K::SharedPtr feature_srv_;
+      |                                 [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:34:40:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' at end of member declaration
+   34 | cpp::Service<FeatureDetection>::[01;31m[KSharedPtr[m[K feature_srv_;
+      |                                 [01;31m[K^~~~~~~~~[m[K
+      |                                          [32m[K;[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:34:50:[m[K [01;31m[Kerror: [m[K'[01m[Kfeature_srv_[m[K' does not name a type
+   34 | ce<FeatureDetection>::SharedPtr [01;31m[Kfeature_srv_[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:31:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   45 |         const std::shared_ptr<[01;31m[KFeatureDetection[m[K::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | red_ptr<FeatureDetection::Request[01;31m[K>[m[K request,
+      |                                  [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:31:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   45 |         const std::shared_ptr<[01;31m[KFeatureDetection[m[K::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | red_ptr<FeatureDetection::Request[01;31m[K>[m[K request,
+      |                                  [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:31:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   45 |         const std::shared_ptr<[01;31m[KFeatureDetection[m[K::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 | red_ptr<FeatureDetection::Request[01;31m[K>[m[K request,
+      |                                  [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   45 |         const [01;31m[Kstd[m[K::shared_ptr<FeatureDetection::Request> request,
+      |               [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:31:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' has not been declared
+   45 |         const std::shared_ptr<[01;31m[KFeatureDetection[m[K::Request> request,
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:45:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+   45 |         [01;31m[Kconst[m[K std::shared_ptr<FeatureDetection::Request> request,
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:25:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   46 |         std::shared_ptr<[01;31m[KFeatureDetection[m[K::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 | d_ptr<FeatureDetection::Response[01;31m[K>[m[K response) {
+      |                                 [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:25:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   46 |         std::shared_ptr<[01;31m[KFeatureDetection[m[K::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 | d_ptr<FeatureDetection::Response[01;31m[K>[m[K response) {
+      |                                 [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:25:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   46 |         std::shared_ptr<[01;31m[KFeatureDetection[m[K::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 | d_ptr<FeatureDetection::Response[01;31m[K>[m[K response) {
+      |                                 [01;31m[K^[m[K
+
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   46 |         [01;31m[Kstd[m[K::shared_ptr<FeatureDetection::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:25:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' has not been declared
+   46 |         std::shared_ptr<[01;31m[KFeatureDetection[m[K::Response> response) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:46:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder '[01m[Kstd::shared_ptr[m[K' not permitted in this context
+   46 |         [01;31m[Kstd[m[K::shared_ptr<FeatureDetection::Response> response) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In constructor '[01m[KFeatureDetector::FeatureDetector()[m[K':
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:9:[m[K [01;31m[Kerror: [m[K'[01m[Kfeature_srv_[m[K' was not declared in this scope
+   24 |         [01;31m[Kfeature_srv_[m[K = this->create_service<FeatureDetection>(
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:45:[m[K [01;31m[Kerror: [m[K'[01m[KFeatureDetection[m[K' was not declared in this scope; did you mean '[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K'?
+   24 | ure_srv_ = this->create_service<[01;31m[KFeatureDetection[m[K>(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kmy_robot_interfaces::srv::FeatureDetection[m[K
+In file included from [01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/feature_detection.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:13[m[K:
+[01m[K/home/user/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/feature_detection__struct.hpp:296:8:[m[K [01;36m[Knote: [m[K'[01m[Kmy_robot_interfaces::srv::FeatureDetection[m[K' declared here
+  296 | struct [01;36m[KFeatureDetection[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KFeatureDetector::create_service<<expression error> >(const char [19], std::_Bind_helper<false, void (FeatureDetector::*)(...), FeatureDetector*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K'
+   24 | _ = [01;31m[Kthis->create_service<FeatureDetection>([m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   25 | [01;31m[Kre_detection",[m[K
+      | [01;31m[K~~~~~~~~~~~~~~[m[K                             
+
+   26 | [01;31m[Knd(&FeatureDetector::handleFeatureDetection, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:24:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 | _ = [01;31m[Kthis->create_service<FeatureDetection>([m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   25 | [01;31m[Kre_detection",[m[K
+      | [01;31m[K~~~~~~~~~~~~~~[m[K                             
+
+   26 | [01;31m[Knd(&FeatureDetector::handleFeatureDetection, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

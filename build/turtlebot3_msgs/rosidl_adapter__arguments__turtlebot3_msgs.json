@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/latih/ros2-tf-real-robot-project/simulation_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

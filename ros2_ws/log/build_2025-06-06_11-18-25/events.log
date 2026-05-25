@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000469] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000533] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000571] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.002674] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/user/ros2_ws/install/my_robot_interfaces')])}
+[0.002924] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.177228] (-) TimerEvent: {}
+[0.213209] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.214901] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.214996] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/ros2_tf_project', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/ros2_tf_project', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/ros2_tf_project'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/tb3_burger_localization:/home/user/ros2_ws/install/tb3_burger_cartographer:/home/user/simulation_ws/install/turtlebot3:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_simulations:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_example:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_gazebo:/home/user/simulation_ws/install/turtlebot3_bringup:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/my_robot_interfaces:/home/user/ros2_ws/install/tb3_burger_localization:/home/user/ros2_ws/install/tb3_burger_cartographer:/home/user/simulation_ws/install/turtlebot3:/home/user/simulation_ws/install/turtlebot3_simulations:/home/user/simulation_ws/install/turtlebot3_navigation2:/home/user/simulation_ws/install/turtlebot3_msgs:/home/user/simulation_ws/install/turtlebot3_gazebo:/home/user/simulation_ws/install/turtlebot3_bringup:/home/user/simulation_ws/install/turtlebot3_description:/home/user/simulation_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/simulation_ws/install/turtlebot3_teleop:/home/user/simulation_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/user/simulation_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/user/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/user/simulation_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/my_robot_interfaces/lib:/home/user/simulation_ws/install/turtlebot3_msgs/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '925354'), ('SLOT_PREFIX', 'c78a80f5-9480-422a-8dc1-6f5cfabb6622'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25397'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.277383] (-) TimerEvent: {}
+[0.380931] (-) TimerEvent: {}
+[0.481341] (-) TimerEvent: {}
+[0.582082] (-) TimerEvent: {}
+[0.677992] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target feature_detector\x1b[0m\n'}
+[0.682550] (-) TimerEvent: {}
+[0.783519] (-) TimerEvent: {}
+[0.798826] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o\x1b[0m\n'}
+[0.883657] (-) TimerEvent: {}
+[0.985815] (-) TimerEvent: {}
+[1.086195] (-) TimerEvent: {}
+[1.187142] (-) TimerEvent: {}
+[1.287527] (-) TimerEvent: {}
+[1.388509] (-) TimerEvent: {}
+[1.490635] (-) TimerEvent: {}
+[1.591289] (-) TimerEvent: {}
+[1.691733] (-) TimerEvent: {}
+[1.792234] (-) TimerEvent: {}
+[1.893699] (-) TimerEvent: {}
+[1.994260] (-) TimerEvent: {}
+[2.102248] (-) TimerEvent: {}
+[2.205838] (-) TimerEvent: {}
+[2.315844] (-) TimerEvent: {}
+[2.417841] (-) TimerEvent: {}
+[2.519156] (-) TimerEvent: {}
+[2.673764] (-) TimerEvent: {}
+[2.774202] (-) TimerEvent: {}
+[2.879979] (-) TimerEvent: {}
+[2.981223] (-) TimerEvent: {}
+[3.081594] (-) TimerEvent: {}
+[3.182512] (-) TimerEvent: {}
+[3.283017] (-) TimerEvent: {}
+[3.385230] (-) TimerEvent: {}
+[3.485701] (-) TimerEvent: {}
+[3.587055] (-) TimerEvent: {}
+[3.692110] (-) TimerEvent: {}
+[3.793085] (-) TimerEvent: {}
+[3.894039] (-) TimerEvent: {}
+[3.994986] (-) TimerEvent: {}
+[4.102966] (-) TimerEvent: {}
+[4.204994] (-) TimerEvent: {}
+[4.305713] (-) TimerEvent: {}
+[4.408608] (-) TimerEvent: {}
+[4.509577] (-) TimerEvent: {}
+[4.611863] (-) TimerEvent: {}
+[4.714530] (-) TimerEvent: {}
+[4.815769] (-) TimerEvent: {}
+[4.916210] (-) TimerEvent: {}
+[5.016576] (-) TimerEvent: {}
+[5.117000] (-) TimerEvent: {}
+[5.217535] (-) TimerEvent: {}
+[5.318220] (-) TimerEvent: {}
+[5.419980] (-) TimerEvent: {}
+[5.520906] (-) TimerEvent: {}
+[5.621773] (-) TimerEvent: {}
+[5.722169] (-) TimerEvent: {}
+[5.829767] (-) TimerEvent: {}
+[5.973778] (-) TimerEvent: {}
+[6.076213] (-) TimerEvent: {}
+[6.176682] (-) TimerEvent: {}
+[6.277778] (-) TimerEvent: {}
+[6.380087] (-) TimerEvent: {}
+[6.488723] (-) TimerEvent: {}
+[6.589876] (-) TimerEvent: {}
+[6.691018] (-) TimerEvent: {}
+[6.791895] (-) TimerEvent: {}
+[6.893028] (-) TimerEvent: {}
+[6.994708] (-) TimerEvent: {}
+[7.095651] (-) TimerEvent: {}
+[7.212414] (-) TimerEvent: {}
+[7.316588] (-) TimerEvent: {}
+[7.418147] (-) TimerEvent: {}
+[7.520489] (-) TimerEvent: {}
+[7.621280] (-) TimerEvent: {}
+[7.725787] (-) TimerEvent: {}
+[7.873903] (-) TimerEvent: {}
+[7.974266] (-) TimerEvent: {}
+[8.074817] (-) TimerEvent: {}
+[8.175243] (-) TimerEvent: {}
+[8.276127] (-) TimerEvent: {}
+[8.376517] (-) TimerEvent: {}
+[8.476925] (-) TimerEvent: {}
+[8.577851] (-) TimerEvent: {}
+[8.678239] (-) TimerEvent: {}
+[8.778632] (-) TimerEvent: {}
+[8.882306] (-) TimerEvent: {}
+[8.982740] (-) TimerEvent: {}
+[9.083135] (-) TimerEvent: {}
+[9.183828] (-) TimerEvent: {}
+[9.284240] (-) TimerEvent: {}
+[9.385748] (-) TimerEvent: {}
+[9.486801] (-) TimerEvent: {}
+[9.587639] (-) TimerEvent: {}
+[9.690015] (-) TimerEvent: {}
+[9.792335] (-) TimerEvent: {}
+[9.893508] (-) TimerEvent: {}
+[9.995344] (-) TimerEvent: {}
+[10.095726] (-) TimerEvent: {}
+[10.197813] (-) TimerEvent: {}
+[10.298311] (-) TimerEvent: {}
+[10.398751] (-) TimerEvent: {}
+[10.499162] (-) TimerEvent: {}
+[10.599588] (-) TimerEvent: {}
+[10.701345] (-) TimerEvent: {}
+[10.805760] (-) TimerEvent: {}
+[10.906152] (-) TimerEvent: {}
+[11.007083] (-) TimerEvent: {}
+[11.107940] (-) TimerEvent: {}
+[11.211554] (-) TimerEvent: {}
+[11.312952] (-) TimerEvent: {}
+[11.413439] (-) TimerEvent: {}
+[11.514078] (-) TimerEvent: {}
+[11.614472] (-) TimerEvent: {}
+[11.714869] (-) TimerEvent: {}
+[11.816181] (-) TimerEvent: {}
+[11.916564] (-) TimerEvent: {}
+[12.017975] (-) TimerEvent: {}
+[12.122097] (-) TimerEvent: {}
+[12.222515] (-) TimerEvent: {}
+[12.324452] (-) TimerEvent: {}
+[12.473837] (-) TimerEvent: {}
+[12.574907] (-) TimerEvent: {}
+[12.675976] (-) TimerEvent: {}
+[12.776396] (-) TimerEvent: {}
+[12.877979] (-) TimerEvent: {}
+[12.979059] (-) TimerEvent: {}
+[13.079921] (-) TimerEvent: {}
+[13.180884] (-) TimerEvent: {}
+[13.282051] (-) TimerEvent: {}
+[13.294632] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)\x1b[m\x1b[K':\n"}
+[13.295343] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:112:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for '\x1b[01m\x1b[Koperator=\x1b[m\x1b[K' (operand types are '\x1b[01m\x1b[Kmy_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> >::_positions_type\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >\x1b[m\x1b[K'} and '\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K'})\n"}
+[13.297960] (ros2_tf_project) StderrLine: {'line': b'  112 |         response->positions = \x1b[01;31m\x1b[Kbest_point\x1b[m\x1b[K;\n'}
+[13.298585] (ros2_tf_project) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.298748] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:72\x1b[m\x1b[K,\n'}
+[13.299002] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[13.299199] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[13.299386] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[13.299535] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[13.299710] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.299852] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.300032] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.300184] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1\x1b[m\x1b[K:\n'}
+[13.300318] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[13.300526] (ros2_tf_project) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[13.300663] (ros2_tf_project) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.300797] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K'} to '\x1b[01m\x1b[Kconst std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&\x1b[m\x1b[K'\n"}
+[13.300939] (ros2_tf_project) StderrLine: {'line': b'  199 |   operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[13.301131] (ros2_tf_project) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.301286] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.301421] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[13.301609] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[13.301776] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[13.301958] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[13.302121] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[13.302397] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.302563] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.302795] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.302942] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1\x1b[m\x1b[K:\n'}
+[13.303081] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[13.303288] (ros2_tf_project) StderrLine: {'line': b'  709 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[13.303439] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.303574] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K'} to '\x1b[01m\x1b[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&&\x1b[m\x1b[K'\n"}
+[13.303836] (ros2_tf_project) StderrLine: {'line': b'  709 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[13.303984] (ros2_tf_project) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.304118] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = geometry_msgs::msg::Point_<std::allocator<void> >; _Alloc = std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[13.304492] (ros2_tf_project) StderrLine: {'line': b'  730 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[13.304673] (ros2_tf_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.304874] (ros2_tf_project) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K'} to '\x1b[01m\x1b[Kstd::initializer_list<geometry_msgs::msg::Point_<std::allocator<void> > >\x1b[m\x1b[K'\n"}
+[13.305097] (ros2_tf_project) StderrLine: {'line': b'  730 | operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[13.305314] (ros2_tf_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.305628] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[13.382536] (-) TimerEvent: {}
+[13.482961] (-) TimerEvent: {}
+[13.583366] (-) TimerEvent: {}
+[13.685768] (-) TimerEvent: {}
+[13.786410] (-) TimerEvent: {}
+[13.887625] (-) TimerEvent: {}
+[13.989594] (-) TimerEvent: {}
+[14.091904] (-) TimerEvent: {}
+[14.195031] (-) TimerEvent: {}
+[14.296440] (-) TimerEvent: {}
+[14.397816] (-) TimerEvent: {}
+[14.498779] (-) TimerEvent: {}
+[14.599254] (-) TimerEvent: {}
+[14.700789] (-) TimerEvent: {}
+[14.802616] (-) TimerEvent: {}
+[14.903594] (-) TimerEvent: {}
+[15.003998] (-) TimerEvent: {}
+[15.104768] (-) TimerEvent: {}
+[15.205619] (-) TimerEvent: {}
+[15.306932] (-) TimerEvent: {}
+[15.407809] (-) TimerEvent: {}
+[15.510872] (-) TimerEvent: {}
+[15.615189] (-) TimerEvent: {}
+[15.715905] (-) TimerEvent: {}
+[15.823153] (-) TimerEvent: {}
+[15.924995] (-) TimerEvent: {}
+[16.032460] (-) TimerEvent: {}
+[16.173912] (-) TimerEvent: {}
+[16.274290] (-) TimerEvent: {}
+[16.376061] (-) TimerEvent: {}
+[16.476467] (-) TimerEvent: {}
+[16.577331] (-) TimerEvent: {}
+[16.677775] (-) TimerEvent: {}
+[16.790184] (-) TimerEvent: {}
+[16.890625] (-) TimerEvent: {}
+[16.991063] (-) TimerEvent: {}
+[17.091592] (-) TimerEvent: {}
+[17.196905] (-) TimerEvent: {}
+[17.297275] (-) TimerEvent: {}
+[17.398043] (-) TimerEvent: {}
+[17.499678] (-) TimerEvent: {}
+[17.600265] (-) TimerEvent: {}
+[17.701218] (-) TimerEvent: {}
+[17.803774] (-) TimerEvent: {}
+[17.904171] (-) TimerEvent: {}
+[18.008784] (-) TimerEvent: {}
+[18.109346] (-) TimerEvent: {}
+[18.209794] (-) TimerEvent: {}
+[18.310349] (-) TimerEvent: {}
+[18.412951] (-) TimerEvent: {}
+[18.513747] (-) TimerEvent: {}
+[18.614629] (-) TimerEvent: {}
+[18.774646] (-) TimerEvent: {}
+[18.875063] (-) TimerEvent: {}
+[18.976194] (-) TimerEvent: {}
+[19.076736] (-) TimerEvent: {}
+[19.177248] (-) TimerEvent: {}
+[19.278852] (-) TimerEvent: {}
+[19.379754] (-) TimerEvent: {}
+[19.484261] (-) TimerEvent: {}
+[19.584888] (-) TimerEvent: {}
+[19.685298] (-) TimerEvent: {}
+[19.786155] (-) TimerEvent: {}
+[19.887527] (-) TimerEvent: {}
+[19.993773] (-) TimerEvent: {}
+[20.094469] (-) TimerEvent: {}
+[20.194825] (-) TimerEvent: {}
+[20.295383] (-) TimerEvent: {}
+[20.397477] (-) TimerEvent: {}
+[20.499533] (-) TimerEvent: {}
+[20.600726] (-) TimerEvent: {}
+[20.704670] (-) TimerEvent: {}
+[20.805049] (-) TimerEvent: {}
+[20.906346] (-) TimerEvent: {}
+[21.011825] (-) TimerEvent: {}
+[21.173876] (-) TimerEvent: {}
+[21.274267] (-) TimerEvent: {}
+[21.374740] (-) TimerEvent: {}
+[21.475113] (-) TimerEvent: {}
+[21.576325] (-) TimerEvent: {}
+[21.677599] (-) TimerEvent: {}
+[21.778908] (-) TimerEvent: {}
+[21.882686] (-) TimerEvent: {}
+[21.983083] (-) TimerEvent: {}
+[22.084850] (-) TimerEvent: {}
+[22.186854] (-) TimerEvent: {}
+[22.287775] (-) TimerEvent: {}
+[22.389014] (-) TimerEvent: {}
+[22.490082] (-) TimerEvent: {}
+[22.590497] (-) TimerEvent: {}
+[22.691010] (-) TimerEvent: {}
+[22.791917] (-) TimerEvent: {}
+[22.892314] (-) TimerEvent: {}
+[22.993164] (-) TimerEvent: {}
+[23.094866] (-) TimerEvent: {}
+[23.196229] (-) TimerEvent: {}
+[23.298003] (-) TimerEvent: {}
+[23.398352] (-) TimerEvent: {}
+[23.500573] (-) TimerEvent: {}
+[23.601544] (-) TimerEvent: {}
+[23.701970] (-) TimerEvent: {}
+[23.802764] (-) TimerEvent: {}
+[23.904502] (-) TimerEvent: {}
+[24.005470] (-) TimerEvent: {}
+[24.107232] (-) TimerEvent: {}
+[24.207639] (-) TimerEvent: {}
+[24.309312] (-) TimerEvent: {}
+[24.411410] (-) TimerEvent: {}
+[24.515408] (-) TimerEvent: {}
+[24.617863] (-) TimerEvent: {}
+[24.718212] (-) TimerEvent: {}
+[24.818814] (-) TimerEvent: {}
+[24.919895] (-) TimerEvent: {}
+[25.073772] (-) TimerEvent: {}
+[25.113930] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1\n'}
+[25.174050] (-) TimerEvent: {}
+[25.186899] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2\n'}
+[25.187193] (ros2_tf_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.187369] (ros2_tf_project) CommandEnded: {'returncode': 2}
+[25.274175] (-) TimerEvent: {}
+[25.374553] (-) TimerEvent: {}
+[25.475269] (-) TimerEvent: {}
+[25.584540] (-) TimerEvent: {}
+[25.613371] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 2}
+[25.674602] (-) EventReactorShutdown: {}

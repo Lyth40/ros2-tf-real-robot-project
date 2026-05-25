@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_robot_interfaces__py",
+		"source" : "/home/latih/ros2-tf-real-robot-project/build/my_robot_interfaces/my_robot_interfaces__py"
+	}
+}

@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:[m[K In member function '[01m[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)[m[K':
+[01m[K/home/user/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:112:19:[m[K [01;31m[Kerror: [m[K'[01m[Kusing element_type = struct my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> >[m[K' {aka '[01m[Kstruct my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> >[m[K'} has no member named '[01m[Kposition[m[K'; did you mean '[01m[Kpositions[m[K'?
+  112 |         response->[01;31m[Kposition[m[K = best_point;
+      |                   [01;31m[K^~~~~~~~[m[K
+      |                   [32m[Kpositions[m[K
+gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:76: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

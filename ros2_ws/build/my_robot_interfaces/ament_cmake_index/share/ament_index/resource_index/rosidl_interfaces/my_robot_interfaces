@@ -1,0 +1,4 @@
+srv/FeatureDetection.idl
+srv/FeatureDetection.srv
+srv/FeatureDetection_Request.msg
+srv/FeatureDetection_Response.msg

@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000850] (-) JobUnselected: {'identifier': 'tb3_burger_cartographer'}
+[0.000910] (-) JobUnselected: {'identifier': 'tb3_burger_localization'}
+[0.000959] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001002] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001046] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001092] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001165] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001247] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001361] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001390] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001416] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001459] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001492] (ros2_tf_project) JobQueued: {'identifier': 'ros2_tf_project', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces')])}
+[0.001547] (ros2_tf_project) JobStarted: {'identifier': 'ros2_tf_project'}
+[0.011535] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'cmake'}
+[0.012226] (ros2_tf_project) JobProgress: {'identifier': 'ros2_tf_project', 'progress': 'build'}
+[0.013282] (ros2_tf_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', '--', '-j16', '-l16'], 'cwd': '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'latih'), ('LC_TIME', 'ar_AE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/lib:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/latih'), ('OLDPWD', '/home/latih/ros2-tf-real-robot-project/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_AE.UTF-8'), ('MANAGERPID', '1703'), ('SYSTEMD_EXEC_PID', '2048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12681'), ('COLCON_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'latih'), ('JOURNAL_STREAM', '8:7688'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'latih'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asus:@/tmp/.ICE-unix/2026,unix/asus:/tmp/.ICE-unix/2026'), ('INVOCATION_ID', '70f2a857054449fd91df855ae97e5762'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_AE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_AE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_AE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cd3a20ee-5de8-4036-b2f5-99b3a3672b40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_AE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_AE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/latih/ros2-tf-real-robot-project/build/ros2_tf_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example/lib/python3.10/site-packages:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_AE.UTF-8'), ('LC_PAPER', 'ar_AE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/latih/ros2-tf-real-robot-project/install/my_robot_interfaces:/home/latih/ros2-tf-real-robot-project/install/turtlebot3:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_simulations:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_navigation2:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_msgs:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_gazebo:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_bringup:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_description:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_cartographer:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_localization:/home/latih/ros2-tf-real-robot-project/install/tb3_burger_cartographer:/home/latih/ros2-tf-real-robot-project/install/ros2_tf_project:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_teleop:/home/latih/ros2-tf-real-robot-project/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.075107] (ros2_tf_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target feature_detector\x1b[0m\n'}
+[0.099506] (-) TimerEvent: {}
+[0.107770] (ros2_tf_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o\x1b[0m\n'}
+[0.199653] (-) TimerEvent: {}
+[0.300244] (-) TimerEvent: {}
+[0.400597] (-) TimerEvent: {}
+[0.500916] (-) TimerEvent: {}
+[0.601304] (-) TimerEvent: {}
+[0.701729] (-) TimerEvent: {}
+[0.802240] (-) TimerEvent: {}
+[0.902600] (-) TimerEvent: {}
+[1.003111] (-) TimerEvent: {}
+[1.103443] (-) TimerEvent: {}
+[1.203854] (-) TimerEvent: {}
+[1.304253] (-) TimerEvent: {}
+[1.404695] (-) TimerEvent: {}
+[1.505124] (-) TimerEvent: {}
+[1.605560] (-) TimerEvent: {}
+[1.705887] (-) TimerEvent: {}
+[1.806385] (-) TimerEvent: {}
+[1.906895] (-) TimerEvent: {}
+[2.007436] (-) TimerEvent: {}
+[2.107895] (-) TimerEvent: {}
+[2.208317] (-) TimerEvent: {}
+[2.308906] (-) TimerEvent: {}
+[2.409406] (-) TimerEvent: {}
+[2.509930] (-) TimerEvent: {}
+[2.610410] (-) TimerEvent: {}
+[2.710821] (-) TimerEvent: {}
+[2.811344] (-) TimerEvent: {}
+[2.911726] (-) TimerEvent: {}
+[3.012134] (-) TimerEvent: {}
+[3.112692] (-) TimerEvent: {}
+[3.181327] (ros2_tf_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.181773] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.181841] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.181889] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.181924] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.181958] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.181991] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.182023] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.182054] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.182085] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.182115] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.182146] (ros2_tf_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:1\x1b[m\x1b[K:\n'}
+[3.182183] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint FeatureDetector::splitAndMerge(const std::vector<cv::Point_<float> >&, std::vector<std::vector<cv::Point_<float> > >&, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.182251] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:111:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.182342] (ros2_tf_project) StderrLine: {'line': b'  111 | is->get_logger(), \x1b[01;35m\x1b[K"index: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kindex\x1b[m\x1b[K);\n'}
+[3.182573] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[3.182739] (ros2_tf_project) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.182839] (ros2_tf_project) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.182925] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.183010] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:111:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.183117] (ros2_tf_project) StderrLine: {'line': b'  111 | ogger(), "index: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", index);\n'}
+[3.183229] (ros2_tf_project) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.183302] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.183337] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.183370] (ros2_tf_project) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[3.190018] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FeatureDetector::handleFeatureDetection(std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::FeatureDetection_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.190157] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:147:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.190210] (ros2_tf_project) StderrLine: {'line': b'  147 |                 \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (i < 0 || i >= static_cast<int>(scan->ranges.size()))\n'}
+[3.190252] (ros2_tf_project) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.190289] (ros2_tf_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/latih/ros2-tf-real-robot-project/ros2_ws/src/ros2_tf_project/src/feature_detector.cpp:149:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.190326] (ros2_tf_project) StderrLine: {'line': b'  149 |                   \x1b[01;36m\x1b[Kfloat\x1b[m\x1b[K r = scan->ranges[i];\n'}
+[3.190362] (ros2_tf_project) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.190401] (ros2_tf_project) StderrLine: {'line': b'\n'}
+[3.212885] (-) TimerEvent: {}
+[3.313334] (-) TimerEvent: {}
+[3.413814] (-) TimerEvent: {}
+[3.514246] (-) TimerEvent: {}
+[3.614852] (-) TimerEvent: {}
+[3.715443] (-) TimerEvent: {}
+[3.815935] (-) TimerEvent: {}
+[3.916393] (-) TimerEvent: {}
+[4.016908] (-) TimerEvent: {}
+[4.117464] (-) TimerEvent: {}
+[4.217904] (-) TimerEvent: {}
+[4.318368] (-) TimerEvent: {}
+[4.418628] (-) TimerEvent: {}
+[4.518998] (-) TimerEvent: {}
+[4.619557] (-) TimerEvent: {}
+[4.720219] (-) TimerEvent: {}
+[4.820690] (-) TimerEvent: {}
+[4.921071] (-) TimerEvent: {}
+[5.021428] (-) TimerEvent: {}
+[5.122062] (-) TimerEvent: {}
+[5.222344] (-) TimerEvent: {}
+[5.322618] (-) TimerEvent: {}
+[5.422913] (-) TimerEvent: {}
+[5.523315] (-) TimerEvent: {}
+[5.623720] (-) TimerEvent: {}
+[5.723968] (-) TimerEvent: {}
+[5.824239] (-) TimerEvent: {}
+[5.924493] (-) TimerEvent: {}
+[6.024789] (-) TimerEvent: {}
+[6.125048] (-) TimerEvent: {}
+[6.225322] (-) TimerEvent: {}
+[6.325658] (-) TimerEvent: {}
+[6.425979] (-) TimerEvent: {}
+[6.526299] (-) TimerEvent: {}
+[6.626591] (-) TimerEvent: {}
+[6.726916] (-) TimerEvent: {}
+[6.827242] (-) TimerEvent: {}
+[6.927531] (-) TimerEvent: {}
+[7.027876] (-) TimerEvent: {}
+[7.128377] (-) TimerEvent: {}
+[7.228699] (-) TimerEvent: {}
+[7.328990] (-) TimerEvent: {}
+[7.429380] (-) TimerEvent: {}
+[7.529649] (-) TimerEvent: {}
+[7.629921] (-) TimerEvent: {}
+[7.730280] (-) TimerEvent: {}
+[7.830582] (-) TimerEvent: {}
+[7.930979] (-) TimerEvent: {}
+[8.031237] (-) TimerEvent: {}
+[8.131467] (-) TimerEvent: {}
+[8.231733] (-) TimerEvent: {}
+[8.332066] (-) TimerEvent: {}
+[8.432357] (-) TimerEvent: {}
+[8.532615] (-) TimerEvent: {}
+[8.632894] (-) TimerEvent: {}
+[8.733263] (-) TimerEvent: {}
+[8.761309] (ros2_tf_project) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable feature_detector\x1b[0m\n'}
+[8.833375] (-) TimerEvent: {}
+[8.933674] (-) TimerEvent: {}
+[9.034015] (-) TimerEvent: {}
+[9.134489] (-) TimerEvent: {}
+[9.235042] (-) TimerEvent: {}
+[9.335559] (-) TimerEvent: {}
+[9.368543] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: warning: relocation against `_ZTVN4YAML11InvalidNodeE' in read-only section `.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'\n"}
+[9.406979] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.407246] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'\n"}
+[9.407474] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.407608] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[9.407944] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.408050] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[9.408362] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::memory_holder::create_node()':\n"}
+[9.408463] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[9.408929] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node_ref::mark_defined()':\n"}
+[9.409012] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[9.409427] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node_ref::set_type(YAML::NodeType::value)':\n"}
+[9.409514] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail8node_ref8set_typeENS_8NodeType5valueE[_ZN4YAML6detail8node_ref8set_typeENS_8NodeType5valueE]+0x2b): undefined reference to `YAML::detail::node_data::set_type(YAML::NodeType::value)'\n"}
+[9.409920] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node_ref::set_null()':\n"}
+[9.410029] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'\n"}
+[9.410387] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.410486] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.410964] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node_ref::push_back(YAML::detail::node&, std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.411182] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail8node_ref9push_backERNS0_4nodeESt10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail8node_ref9push_backERNS0_4nodeESt10shared_ptrINS0_13memory_holderEE]+0x36): undefined reference to `YAML::detail::node_data::push_back(YAML::detail::node&, std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.411554] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node::push_back(YAML::detail::node&, std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.411677] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail4node9push_backERS1_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail4node9push_backERS1_St10shared_ptrINS0_13memory_holderEE]+0x8e): undefined reference to `YAML::detail::node::m_amount'\n"}
+[9.412020] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::EnsureNodeExists() const':\n"}
+[9.412119] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.412332] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.412916] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::Type() const':\n"}
+[9.413031] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.413349] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.413955] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':\n"}
+[9.414032] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.414276] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.414695] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'\n"}
+[9.415173] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::is(YAML::Node const&) const':\n"}
+[9.415281] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZNK4YAML4Node2isERKS0_[_ZNK4YAML4Node2isERKS0_]+0x56): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.415503] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZNK4YAML4Node2isERKS0_[_ZNK4YAML4Node2isERKS0_]+0x60): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.416070] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::AssignData(YAML::Node const&)':\n"}
+[9.416137] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML4Node10AssignDataERKS0_[_ZN4YAML4Node10AssignDataERKS0_]+0x72): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.416621] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::AssignNode(YAML::Node const&)':\n"}
+[9.416694] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0x48): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.416966] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0x52): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.417248] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML4Node10AssignNodeERKS0_[_ZN4YAML4Node10AssignNodeERKS0_]+0xec): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.417769] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::Node::push_back(YAML::Node const&)':\n"}
+[9.417835] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML4Node9push_backERKS0_[_ZN4YAML4Node9push_backERKS0_]+0xa8): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.418304] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `FeatureDetector::saveFeaturesToYaml(std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, geometry_msgs::msg::Point_<std::allocator<void> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, geometry_msgs::msg::Point_<std::allocator<void> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[9.418389] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN15FeatureDetector18saveFeaturesToYamlERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN13geometry_msgs3msg6Point_ISaIvEEEESaISD_EERKS7_[_ZN15FeatureDetector18saveFeaturesToYamlERKSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN13geometry_msgs3msg6Point_ISaIvEEEESaISD_EERKS7_]+0x4ea): undefined reference to `YAML::operator<<(std::ostream&, YAML::Node const&)'\n"}
+[9.419353] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `void YAML::Node::Assign<double>(double const&)':\n"}
+[9.419447] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML4Node6AssignIdEEvRKT_[_ZN4YAML4Node6AssignIdEEvRKT_]+0x57): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[9.419692] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML4Node6AssignIdEEvRKT_[_ZN4YAML4Node6AssignIdEEvRKT_]+0x61): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[9.420795] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [8]>(char const (&) [8], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.420903] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.421164] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.421471] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.421788] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.422167] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.422234] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.422394] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.422618] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.422850] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.423251] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [2]>(char const (&) [2], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.423331] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.423617] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.424013] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.424395] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.425141] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [15]>(char const (&) [15], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.425235] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[9.425491] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[9.425871] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[9.426240] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: feature_detector.cpp:(.text._ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[9.426935] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [8]>(YAML::Mark const&, char const (&) [8])':\n"}
+[9.426987] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML12BadSubscriptC2IA8_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA8_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.427335] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [8]>(char const (&) [8], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.427409] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA8_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.427661] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [9]>(YAML::Mark const&, char const (&) [9])':\n"}
+[9.427761] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML12BadSubscriptC2IA9_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA9_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.428286] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.428459] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.428831] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [2]>(YAML::Mark const&, char const (&) [2])':\n"}
+[9.428890] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML12BadSubscriptC2IA2_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA2_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.429294] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [2]>(char const (&) [2], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.429329] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA2_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.429708] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [15]>(YAML::Mark const&, char const (&) [15])':\n"}
+[9.429799] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML12BadSubscriptC2IA15_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA15_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[9.430142] (ros2_tf_project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/feature_detector.dir/src/feature_detector.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [15]>(char const (&) [15], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[9.430208] (ros2_tf_project) StderrLine: {'line': b"feature_detector.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA15_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[9.435683] (-) TimerEvent: {}
+[9.467262] (ros2_tf_project) StderrLine: {'line': b'/usr/bin/ld: warning: creating DT_TEXTREL in a PIE\n'}
+[9.473526] (ros2_tf_project) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.475699] (ros2_tf_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/feature_detector.dir/build.make:268: feature_detector] Error 1\n'}
+[9.475899] (ros2_tf_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/feature_detector.dir/all] Error 2\n'}
+[9.476174] (ros2_tf_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.478848] (ros2_tf_project) CommandEnded: {'returncode': 2}
+[9.489688] (ros2_tf_project) JobEnded: {'identifier': 'ros2_tf_project', 'rc': 2}
+[9.500333] (-) EventReactorShutdown: {}
